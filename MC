@@ -55,4 +55,6 @@ vmess://e7ef6d49-7a03-4433-9cc4-ef63258a22fd@mci.rayanbala.ir:443/?type=ws&encry
 
 https://mms.1362:rayanbala.ir@isr-loc1.secureconnect.me:282
 
+https://mms.1362:rayanbala.ir@ire.secureconnect.me:489
+
 
