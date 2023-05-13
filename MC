@@ -1,7 +1,9 @@
 
-https://mms.1362:rayanbala.ir@ukr.secureconnect.me:993/#Ukraine-TG
+https://mms.1362:rayanbala.ir@ru.secureconnect.me:489/#Russia-TG
 
-https://mms.1362:rayanbala.ir@nl.secureconnect.me:993/#Netherlands-TG
+https://mms.1362:rayanbala.ir@ukr.secureconnect.me:489/#Ukraine-TG
+
+https://mms.1362:rayanbala.ir@nl.secureconnect.me:489/#Netherlands-TG
 
 vmess://6158F3F7-F3D1-4F5B-A725-FCE087782C33@mci.rayanbala.ir:443/?type=ws&encryption=none&host=public.rayan1.workers.dev&path=%2FDusseldorf.kotick.site%2Fspeedtest&security=tls&sni=public.rayan1.workers.dev#GAFN-Dusseldorf-MCI
 
