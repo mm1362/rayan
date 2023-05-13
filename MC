@@ -52,3 +52,7 @@ vmess://20ac7536-1b8f-4797-8b18-841c7786f99f@mci.rayanbala.ir:443/?type=ws&encry
 
 
 vmess://e7ef6d49-7a03-4433-9cc4-ef63258a22fd@mci.rayanbala.ir:443/?type=ws&encryption=auto&host=doprax.mms1362.workers.dev&path=%2Fvmess&security=tls&sni=doprax.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Doprax-Vmess-MCI
+
+https://mms.1362:rayanbala.ir@isr-loc1.secureconnect.me:282
+
+
