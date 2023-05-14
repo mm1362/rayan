@@ -53,12 +53,20 @@ vmess://20ac7536-1b8f-4797-8b18-841c7786f99f@mci.rayanbala.ir:443/?type=ws&encry
 
 vmess://e7ef6d49-7a03-4433-9cc4-ef63258a22fd@mci.rayanbala.ir:443/?type=ws&encryption=auto&host=doprax.mms1362.workers.dev&path=%2Fvmess&security=tls&sni=doprax.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Doprax-Vmess-MCI
 
-https://mms.1362:rayanbala.ir@isr-loc1.secureconnect.me:282
+https://mms.1362:rayanbala.ir@isr-loc1.secureconnect.me:282/#Israel-Loc1-TG
 
-https://mms.1362:rayanbala.ir@ire.secureconnect.me:489
+https://mms.1362:rayanbala.ir@ire.secureconnect.me:489/#Ireland-TG
 
 https://mms.1362:rayanbala.ir@md.secureconnect.me:778/#Moldova-TG
 
 https://mms.1362:rayanbala.ir@ice.secureconnect.me:282/#Iceland-TG
+
+https://mms.1362:rayanbala.ir@fn.secureconnect.me:282/#Finland-TG
+
+https://mms.1362:rayanbala.ir@us-sf.secureconnect.me:489/#USA-SF-TG
+
+https://mms.1362:rayanbala.ir@cavan.secureconnect.me:778/#Canada-TG
+
+https://mms.1362:rayanbala.ir@ro.secureconnect.me:489/#Romani-TG
 
 
