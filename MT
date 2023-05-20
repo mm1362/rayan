@@ -4,6 +4,7 @@ sn://http?eNpjYGBg4ADi3BS94tTk0qLU5Py8vNTkEr3cpw-ZGRgaG0qSPzQ2NumX5HxuBALGRgaQ4t
 
 sn://http?eNpjYGBg4ADizORUveLU5NKi1OT8vLzU5BK93KcPmRkYGhtKkj80Njbpl-R8bgQCxkagYobc3GI9Q2OzTUWJlYl5SYk5iXqZnxiB4p7JqTmJeSm6IcdBqgBu0h4F
 
+vless://ab45ffa4-3873-4208-9e18-3c940445aea4@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=11.rayanbala.ir&path=%2Fvless%2Fab45ffa4-3873-4208-9e18-3c940445aea4&security=tls&sni=11.rayanbala.ir&alpn=h2%2Chttp%2F1.1#Worker-MTN
 
 
 vmess://6158F3F7-F3D1-4F5B-A725-FCE087782C33@mtn.rayanbala.ir:443/?type=ws&encryption=none&host=public.rayan1.workers.dev&path=%2FDusseldorf.kotick.site%2Fspeedtest&security=tls&sni=public.rayan1.workers.dev#GAFN-Dusseldorf-MTN
