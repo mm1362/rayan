@@ -17,43 +17,7 @@ vmess://6158F3F7-F3D1-4F5B-A725-FCE087782C33@mtn.rayanbala.ir:443/?type=ws&encry
 
 vmess://6158F3F7-F3D1-4F5B-A725-FCE087782C33@mtn.rayanbala.ir:443/?type=ws&encryption=none&host=public.rayan1.workers.dev&path=%2FLosAngeles.kotick.site%2Fspeedtest&security=tls&sni=public.rayan1.workers.dev#GAFN-LosAngeles-MTN
 
-vless://311e60a3-4aca-477e-a57b-1400b1565e59@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=codesandbox.mms1362.workers.dev&path=%2F311e60a3-4aca-477e-a57b-1400b1565e59-vl&security=tls&sni=codesandbox.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Codesandbix-Vless-MTN
 
-
-vless://20ac7536-1b8f-4797-8b18-841c7786f99f@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=rep2.mms1362.workers.dev&path=%2F222.mohammadmoazzen.repl.co%2F20ac7536-1b8f-4797-8b18-841c7786f99f-vl&security=tls&sni=rep2.mms1362.workers.dev#Replit-USA-Vless-MTN
-
-
-vless://de15faa9-34c6-49cc-ae44-3b69c073beb6@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=any.medical2023.workers.dev&path=%2F111.msnegar.repl.co%2Fde15faa9-34c6-49cc-ae44-3b69c073beb6-vl&security=tls&sni=any.medical2023.workers.dev&alpn=h2%2Chttp%2F1.1#Replit-India-Vless-MTN
-
-
-vmess://e7ef6d49-7a03-4433-9cc4-ef63258a22fd@mtn.rayanbala.ir:443/?type=ws&encryption=none&host=doprax.mms1362.workers.dev&path=%2Fvmess&security=tls&sni=doprax.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Doprax-Vmess-MTN
-
-
-vless://e7ef6d49-7a03-4433-9cc4-ef63258a22fd@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=doprax.mms1362.workers.dev&path=%2Fvless&security=tls&sni=doprax.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Doprax-Vless-MTN
-
-
-vmess://311e60a3-4aca-477e-a57b-1400b1565e59@mtn.rayanbala.ir:443/?type=ws&encryption=none&host=codesandbox.mms1362.workers.dev&path=%2F311e60a3-4aca-477e-a57b-1400b1565e59-vm&security=tls&sni=codesandbox.mms1362.workers.dev#Codesandbix-Vmess-MTN
-
-
-trojan://de15faa9-34c6-49cc-ae44-3b69c073beb6@mtn.rayanbala.ir:443/?type=ws&host=any.medical2023.workers.dev&path=%2F111.msnegar.repl.co%2Fde15faa9-34c6-49cc-ae44-3b69c073beb6-tr&security=tls&sni=any.medical2023.workers.dev&alpn=h2%2Chttp%2F1.1#Replit-India-Trojan-MTN
-
-
-vmess://20ac7536-1b8f-4797-8b18-841c7786f99f@mtn.rayanbala.ir:443/?type=ws&encryption=auto&host=rep2.mms1362.workers.dev&path=%2F222.mohammadmoazzen.repl.co%2F20ac7536-1b8f-4797-8b18-841c7786f99f-vm&security=tls&sni=rep2.mms1362.workers.dev#Replit-USA-Vmess-MTN
-
-
-trojan://20ac7536-1b8f-4797-8b18-841c7786f99f@mtn.rayanbala.ir:443/?type=ws&host=rep2.mms1362.workers.dev&path=%2F222.mohammadmoazzen.repl.co%2F20ac7536-1b8f-4797-8b18-841c7786f99f-tr&security=tls&sni=rep2.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Replit-USA-Trojan-MTN
-
-
-vmess://de15faa9-34c6-49cc-ae44-3b69c073beb6@mtn.rayanbala.ir:443/?type=ws&encryption=auto&host=any.medical2023.workers.dev&path=%2F111.msnegar.repl.co%2Fde15faa9-34c6-49cc-ae44-3b69c073beb6-vm&security=tls&sni=any.medical2023.workers.dev#Replit-India-Vmess-MTN
-
-
-vless://5862b16a-3e0e-45f8-b168-ad34fcf60f42@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=rep2.mms1362.workers.dev&path=%2Fmms-mm1362.cloud.okteto.net%2Fvless&security=tls&sni=rep2.mms1362.workers.dev#Okteto-Vless-MTN
-
-
-vmess://5862b16a-3e0e-45f8-b168-ad34fcf60f42@mtn.rayanbala.ir:443/?type=ws&encryption=none&host=rep2.mms1362.workers.dev&path=%2Fmms-mm1362.cloud.okteto.net%2Fvmess&security=tls&sni=rep2.mms1362.workers.dev#Okteto-Vmess-MTN
-
-
-trojan://5862b16a-3e0e-45f8-b168-ad34fcf60f42@mtn.rayanbala.ir:443/?type=ws&host=rep2.mms1362.workers.dev&path=%2Fmms-mm1362.cloud.okteto.net%2Ftrojan&security=tls&sni=rep2.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Okteto-Trojan-MTN
 
 sn://http?eNpjYGBg4ADitDy94tTk0qLU5Py8vNTkEr3cpw-ZGRgaG0qSPzQ2NumX5HxuBALGRqBahtzcYj1DY7NNRYmViXlJiTmJepmfGIHibpl5OYl5Kbohx0GqAFDAHbQ
 
