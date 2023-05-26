@@ -10,23 +10,3 @@ vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0Ijoi
 
 vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicHVibGljLnJheWFuMS53b3JrZXJzLmRldiIsImlkIjoiNjE1OEYzRjctRjNEMS00RjVCLUE3MjUtRkNFMDg3NzgyQzMzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0xvc0FuZ2VsZXMua290aWNrLnNpdGUvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoiR0FGTi1Mb3NBbmdlbGVzLVNNVCIsInNjeSI6Im5vbmUiLCJzbmkiOiJwdWJsaWMucmF5YW4xLndvcmtlcnMuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
 
-vless://311e60a3-4aca-477e-a57b-1400b1565e59@smt.rayanbala.ir:443/?encryption=none&type=ws&host=codesandbox.mms1362.workers.dev&path=%2F311e60a3-4aca-477e-a57b-1400b1565e59-vl&security=tls&sni=codesandbox.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Codesandbix-Vless-SMT
-
-vless://20ac7536-1b8f-4797-8b18-841c7786f99f@smt.rayanbala.ir:443/?encryption=none&type=ws&host=rep2.mms1362.workers.dev&path=%2F222.mohammadmoazzen.repl.co%2F20ac7536-1b8f-4797-8b18-841c7786f99f-vl&security=tls&sni=rep2.mms1362.workers.dev#Replit-USA-Vless-SMT
-
-vless://de15faa9-34c6-49cc-ae44-3b69c073beb6@smt.rayanbala.ir:443/?encryption=none&type=ws&host=any.medical2023.workers.dev&path=%2F111.msnegar.repl.co%2Fde15faa9-34c6-49cc-ae44-3b69c073beb6-vl&security=tls&sni=any.medical2023.workers.dev&alpn=h2%2Chttp%2F1.1#Replit-India-Vless-SMT
-
-vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiY29kZXNhbmRib3gubW1zMTM2Mi53b3JrZXJzLmRldiIsImlkIjoiMzExZTYwYTMtNGFjYS00NzdlLWE1N2ItMTQwMGIxNTY1ZTU5IiwibmV0Ijoid3MiLCJwYXRoIjoiLzMxMWU2MGEzLTRhY2EtNDc3ZS1hNTdiLTE0MDBiMTU2NWU1OS12bSIsInBvcnQiOiI0NDMiLCJwcyI6IkNvZGVzYW5kYml4LVZtZXNzLVNNVCIsInNjeSI6Im5vbmUiLCJzbmkiOiJjb2Rlc2FuZGJveC5tbXMxMzYyLndvcmtlcnMuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
-
-trojan://de15faa9-34c6-49cc-ae44-3b69c073beb6@smt.rayanbala.ir:443/?type=ws&host=any.medical2023.workers.dev&path=%2F111.msnegar.repl.co%2Fde15faa9-34c6-49cc-ae44-3b69c073beb6-tr&security=tls&sni=any.medical2023.workers.dev&alpn=h2%2Chttp%2F1.1#Replit-India-Trojan-SMT
-
-vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwMi5tbXMxMzYyLndvcmtlcnMuZGV2IiwiaWQiOiIyMGFjNzUzNi0xYjhmLTQ3OTctOGIxOC04NDFjNzc4NmY5OWYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMjIyLm1vaGFtbWFkbW9henplbi5yZXBsLmNvLzIwYWM3NTM2LTFiOGYtNDc5Ny04YjE4LTg0MWM3Nzg2Zjk5Zi12bSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlcGxpdC1VU0EtVm1lc3MtU01UIiwic2N5IjoiYXV0byIsInNuaSI6InJlcDIubW1zMTM2Mi53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
-
-trojan://20ac7536-1b8f-4797-8b18-841c7786f99f@smt.rayanbala.ir:443/?type=ws&host=rep2.mms1362.workers.dev&path=%2F222.mohammadmoazzen.repl.co%2F20ac7536-1b8f-4797-8b18-841c7786f99f-tr&security=tls&sni=rep2.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Replit-USA-Trojan-SMT
-
-vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiYW55Lm1lZGljYWwyMDIzLndvcmtlcnMuZGV2IiwiaWQiOiJkZTE1ZmFhOS0zNGM2LTQ5Y2MtYWU0NC0zYjY5YzA3M2JlYjYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMTExLm1zbmVnYXIucmVwbC5jby9kZTE1ZmFhOS0zNGM2LTQ5Y2MtYWU0NC0zYjY5YzA3M2JlYjYtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiJSZXBsaXQtSW5kaWEtVm1lc3MtU01UIiwic2N5IjoiYXV0byIsInNuaSI6ImFueS5tZWRpY2FsMjAyMy53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
-
-vless://5862b16a-3e0e-45f8-b168-ad34fcf60f42@smt.rayanbala.ir:443/?encryption=none&type=ws&host=rep2.mms1362.workers.dev&path=%2Fmms-mm1362.cloud.okteto.net%2Fvless&security=tls&sni=rep2.mms1362.workers.dev#Okteto-Vless-SMT
-
-trojan://5862b16a-3e0e-45f8-b168-ad34fcf60f42@smt.rayanbala.ir:443/?type=ws&host=rep2.mms1362.workers.dev&path=%2Fmms-mm1362.cloud.okteto.net%2Ftrojan&security=tls&sni=rep2.mms1362.workers.dev&alpn=h2%2Chttp%2F1.1#Okteto-Trojan-SMT
-
