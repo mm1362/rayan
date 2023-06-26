@@ -5,6 +5,7 @@ https://mms.1362:rayanbala.ir@md.secureconnect.me:993/#Moldova-TG
 
 https://mms.1362:rayanbala.ir@ice.secureconnect.me:993/#Iceland-TG
 
+vless://aae0527c-5ad5-4a40-b966-fc89e9030083@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=worker.rayanbala.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.rayanbala.ir#Worker-III-MTN
 
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0R1c3NlbGRvcmYua290aWNrLnNpdGUvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoiR0FGTi1EdXNzZWxkb3JmLU1UTiIsInNjeSI6Im5vbmUiLCJzbmkiOiJyZXAucmF5YW5iYWxhLmlyIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
 
