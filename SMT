@@ -1,20 +1,33 @@
-https://mms.1362:rayanbala.ir@slk.secureconnect.me:993/#Slovakia-TG
+https://mms.1362:rayanbala.ir@slk.secureconnect.me:993/#Slovakia-TG-SMT
 
-https://mms.1362:rayanbala.ir@dn.secureconnect.me:489/#Denmark-TG
+https://mms.1362:rayanbala.ir@dn.secureconnect.me:489/#Denmark-TG-SMT
 
-https://mms.1362:rayanbala.ir@pg.secureconnect.me:993/#Portugal-TG
+https://mms.1362:rayanbala.ir@pg.secureconnect.me:993/#Portugal-TG-SMT
 
 
 vless://aae0527c-5ad5-4a40-b966-fc89e9030083@smt.rayanbala.ir:443/?encryption=none&type=ws&host=worker.rayanbala.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.rayanbala.ir#Worker-III-SMT
 
 
+vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiODAtYjEyZjBkYmMzYTg5NGJhNGFmYTk0NDg2YTEzODczZWQub25wYXRyLmNsb3VkIiwiaWQiOiJhMmZiYjFkZi00ZDRjLTQ4MmMtYmI1OC0wMjZjZDdlZWY2YjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJQYXRyLVNNVCIsInNjeSI6Im5vbmUiLCJzbmkiOiI4MC1iMTJmMGRiYzNhODk0YmE0YWZhOTQ0ODZhMTM4NzNlZC5vbnBhdHIuY2xvdWQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+
+
+vless://20ac7536-1b8f-4797-8b18-841c7786f99f@smt.rayanbala.ir:443/?encryption=none&type=ws&host=rep.rayanbala.ir&path=%2F222.mohammadmoazzen.repl.co%2F20ac7536-1b8f-4797-8b18-841c7786f99f-vl&security=tls&sni=rep.rayanbala.ir#Replit-USA-SMT
+
+
+vless://5862b16a-3e0e-45f8-b168-ad34fcf60f42@smt.rayanbala.ir:443/?encryption=none&type=ws&host=rep.rayanbala.ir&path=%2Fmms-mm1362.cloud.okteto.net%2Fvless&security=tls&sni=rep.rayanbala.ir#Okteto-SMT
+
+
 vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0R1c3NlbGRvcmYua290aWNrLnNpdGUvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoiR0FGTi1EdXNzZWxkb3JmLVNNVCIsInNjeSI6Im5vbmUiLCJzbmkiOiJyZXAucmF5YW5iYWxhLmlyIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+
 
 vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0thbnNhcy5rb3RpY2suc2l0ZS9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiJHQUZOLUthbnNhcy1TTVQiLCJzY3kiOiJub25lIiwic25pIjoicmVwLnJheWFuYmFsYS5pciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
 
+
 vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0Ftc3RlcmRhbS5rb3RpY2suc2l0ZS9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiJHQUZOLUFtc3RlcmRhbS1TTVQiLCJzY3kiOiJub25lIiwic25pIjoicmVwLnJheWFuYmFsYS5pciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
 
+
 vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0xpbGxlLmtvdGljay5zaXRlL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IkdBRk4tTGlsbGUtU01UIiwic2N5Ijoibm9uZSIsInNuaSI6InJlcC5yYXlhbmJhbGEuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+
 
 vmess://eyJhZGQiOiJzbXQucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0xvc0FuZ2VsZXMua290aWNrLnNpdGUvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoiR0FGTi1Mb3NBbmdlbGVzLVNNVCIsInNjeSI6Im5vbmUiLCJzbmkiOiJyZXAucmF5YW5iYWxhLmlyIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
 
@@ -27,10 +40,10 @@ vless://adbdb103-432b-4690-bdee-5204ec6271bd@smt.rayanbala.ir:443/?encryption=no
 
 
 
-https://mms.1362:rayanbala.ir@hg.secureconnect.me:489/#Hungry-TG
+https://mms.1362:rayanbala.ir@hg.secureconnect.me:489/#Hungry-TG-SMT
 
-https://mms.1362:rayanbala.ir@pl.secureconnect.me:993/#Poland-TG
+https://mms.1362:rayanbala.ir@pl.secureconnect.me:993/#Poland-TG-SMT
 
-https://mms.1362:rayanbala.ir@br.secureconnect.me:993/#Brazil-TG
+https://mms.1362:rayanbala.ir@br.secureconnect.me:993/#Brazil-TG-SMT
 
 
