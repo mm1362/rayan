@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：26-06-2023 21:50:11
+# 创建时间：11-07-2023 21:32:58
 # 使用模版：V2RaySE 默认模版
-# 节点数量：54
+# 节点数量：63
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,50 +22,13 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"Russia-TG_1","type":"http","server":"ru.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Ukraine-TG_1","type":"http","server":"ukr.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Netherlands-TG","type":"http","server":"nl.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Worker-III-MCI","type":"vless","server":"mci.rayanbala.ir","port":443,"uuid":"aae0527c-5ad5-4a40-b966-fc89e9030083","tls":true,"servername":"worker.rayanbala.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker.rayanbala.ir"}}}
-  - {"name":"GAFN-Dusseldorf-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"GAFN-Kansas-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"GAFN-Amsterdam-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"GAFN-Lille-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"GAFN-LosAngeles-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/LosAngeles.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"Worker-MCI","type":"vless","server":"mci.rayanbala.ir","port":443,"uuid":"ab45ffa4-3873-4208-9e18-3c940445aea4","tls":true,"servername":"11.rayanbala.ir","network":"ws","ws-opts":{"path":"/vless/ab45ffa4-3873-4208-9e18-3c940445aea4","headers":{"host":"11.rayanbala.ir"}}}
-  - {"name":"Worker-II-MCI","type":"vless","server":"mci.rayanbala.ir","port":443,"uuid":"adbdb103-432b-4690-bdee-5204ec6271bd","tls":true,"servername":"test.rayanbala.ir","network":"ws","ws-opts":{"headers":{"host":"test.rayanbala.ir"}}}
-  - {"name":"Israel-Loc1-TG","type":"http","server":"isr-loc1.secureconnect.me","port":282,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Ireland-TG","type":"http","server":"ire.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Moldova-TG_1","type":"http","server":"md.secureconnect.me","port":778,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Iceland-TG_1","type":"http","server":"ice.secureconnect.me","port":282,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Finland-TG_1","type":"http","server":"fn.secureconnect.me","port":282,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"USA-SF-TG_1","type":"http","server":"us-sf.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Canada-TG_1","type":"http","server":"cavan.secureconnect.me","port":778,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Romani-TG_1","type":"http","server":"ro.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Russia-TG_2","type":"http","server":"ru.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Moldova-TG_2","type":"http","server":"md.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Iceland-TG_2","type":"http","server":"ice.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Worker-III-MTN","type":"vless","server":"mtn.rayanbala.ir","port":443,"uuid":"aae0527c-5ad5-4a40-b966-fc89e9030083","tls":true,"servername":"worker.rayanbala.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker.rayanbala.ir"}}}
-  - {"name":"GAFN-Dusseldorf-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"GAFN-Kansas-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"GAFN-Amsterdam-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"GAFN-Lille-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"GAFN-LosAngeles-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/LosAngeles.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
-  - {"name":"Worker-MTN","type":"vless","server":"mtn.rayanbala.ir","port":443,"uuid":"ab45ffa4-3873-4208-9e18-3c940445aea4","tls":true,"servername":"11.rayanbala.ir","network":"ws","ws-opts":{"path":"/vless/ab45ffa4-3873-4208-9e18-3c940445aea4","headers":{"host":"11.rayanbala.ir"}}}
-  - {"name":"Worker-II-MTN","type":"vless","server":"mtn.rayanbala.ir","port":443,"uuid":"adbdb103-432b-4690-bdee-5204ec6271bd","tls":true,"servername":"test.rayanbala.ir","network":"ws","ws-opts":{"headers":{"host":"test.rayanbala.ir"}}}
-  - {"name":"Finland-TG_2","type":"http","server":"fn.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"USA-SF-TG_2","type":"http","server":"us-sf.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Canada-TG_2","type":"http","server":"cavan.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Chile-TG","type":"http","server":"ch.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Israel-Loc2-TG","type":"http","server":"isr-loc2.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Romani-TG_2","type":"http","server":"ro.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Ukraine-TG_2","type":"http","server":"ukr.secureconnect.me","port":7070,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Sweden-TG","type":"http","server":"swe.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Spain-TG","type":"http","server":"sp.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Norwey-TG","type":"http","server":"no.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Slovakia-TG","type":"http","server":"slk.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Denmark-TG","type":"http","server":"dn.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Portugal-TG","type":"http","server":"pg.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Slovakia-TG-SMT","type":"http","server":"slk.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Denmark-TG-SMT","type":"http","server":"dn.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Portugal-TG-SMT","type":"http","server":"pg.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
   - {"name":"Worker-III-SMT","type":"vless","server":"smt.rayanbala.ir","port":443,"uuid":"aae0527c-5ad5-4a40-b966-fc89e9030083","tls":true,"servername":"worker.rayanbala.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker.rayanbala.ir"}}}
+  - {"name":"Patr-SMT","type":"vmess","server":"smt.rayanbala.ir","port":443,"cipher":"none","uuid":"a2fbb1df-4d4c-482c-bb58-026cd7eef6b2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"80-b12f0dbc3a894ba4afa94486a13873ed.onpatr.cloud","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"80-b12f0dbc3a894ba4afa94486a13873ed.onpatr.cloud"}}}
+  - {"name":"Replit-USA-SMT","type":"vless","server":"smt.rayanbala.ir","port":443,"uuid":"20ac7536-1b8f-4797-8b18-841c7786f99f","tls":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/222.mohammadmoazzen.repl.co/20ac7536-1b8f-4797-8b18-841c7786f99f-vl","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"Okteto-SMT","type":"vless","server":"smt.rayanbala.ir","port":443,"uuid":"5862b16a-3e0e-45f8-b168-ad34fcf60f42","tls":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/mms-mm1362.cloud.okteto.net/vless","headers":{"host":"rep.rayanbala.ir"}}}
   - {"name":"GAFN-Dusseldorf-SMT","type":"vmess","server":"smt.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
   - {"name":"GAFN-Kansas-SMT","type":"vmess","server":"smt.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
   - {"name":"GAFN-Amsterdam-SMT","type":"vmess","server":"smt.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
@@ -73,59 +36,68 @@ proxies:
   - {"name":"GAFN-LosAngeles-SMT","type":"vmess","server":"smt.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/LosAngeles.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
   - {"name":"Worker-SMT","type":"vless","server":"smt.rayanbala.ir","port":443,"uuid":"ab45ffa4-3873-4208-9e18-3c940445aea4","tls":true,"servername":"11.rayanbala.ir","network":"ws","ws-opts":{"path":"/vless/ab45ffa4-3873-4208-9e18-3c940445aea4","headers":{"host":"11.rayanbala.ir"}}}
   - {"name":"Worker-II-SMT","type":"vless","server":"smt.rayanbala.ir","port":443,"uuid":"adbdb103-432b-4690-bdee-5204ec6271bd","tls":true,"servername":"test.rayanbala.ir","network":"ws","ws-opts":{"headers":{"host":"test.rayanbala.ir"}}}
-  - {"name":"Hungry-TG","type":"http","server":"hg.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Poland-TG","type":"http","server":"pl.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
-  - {"name":"Brazil-TG","type":"http","server":"br.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Hungry-TG-SMT","type":"http","server":"hg.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Poland-TG-SMT","type":"http","server":"pl.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Brazil-TG-SMT","type":"http","server":"br.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Russia-TG-MTN","type":"http","server":"ru.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Moldova-TG-MTN","type":"http","server":"md.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Iceland-TG-MTN","type":"http","server":"ice.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Worker-III-MTN","type":"vless","server":"mtn.rayanbala.ir","port":443,"uuid":"aae0527c-5ad5-4a40-b966-fc89e9030083","tls":true,"servername":"worker.rayanbala.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker.rayanbala.ir"}}}
+  - {"name":"Patr-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"a2fbb1df-4d4c-482c-bb58-026cd7eef6b2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"80-b12f0dbc3a894ba4afa94486a13873ed.onpatr.cloud","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"80-b12f0dbc3a894ba4afa94486a13873ed.onpatr.cloud"}}}
+  - {"name":"Replit-USA-MTN","type":"vless","server":"mtn.rayanbala.ir","port":443,"uuid":"20ac7536-1b8f-4797-8b18-841c7786f99f","tls":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/222.mohammadmoazzen.repl.co/20ac7536-1b8f-4797-8b18-841c7786f99f-vl","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"Okteto-MTN","type":"vless","server":"mtn.rayanbala.ir","port":443,"uuid":"5862b16a-3e0e-45f8-b168-ad34fcf60f42","tls":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/mms-mm1362.cloud.okteto.net/vless","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-Dusseldorf-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-Kansas-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-Amsterdam-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-Lille-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-LosAngeles-MTN","type":"vmess","server":"mtn.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/LosAngeles.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"Worker-MTN","type":"vless","server":"mtn.rayanbala.ir","port":443,"uuid":"ab45ffa4-3873-4208-9e18-3c940445aea4","tls":true,"servername":"11.rayanbala.ir","network":"ws","ws-opts":{"path":"/vless/ab45ffa4-3873-4208-9e18-3c940445aea4","headers":{"host":"11.rayanbala.ir"}}}
+  - {"name":"Worker-II-MTN","type":"vless","server":"mtn.rayanbala.ir","port":443,"uuid":"adbdb103-432b-4690-bdee-5204ec6271bd","tls":true,"servername":"test.rayanbala.ir","network":"ws","ws-opts":{"headers":{"host":"test.rayanbala.ir"}}}
+  - {"name":"Finland-TG-MTN","type":"http","server":"fn.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"USA-SF-TG-MTN","type":"http","server":"us-sf.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Canada-TG-MTN","type":"http","server":"cavan.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Chile-TG-MTN","type":"http","server":"ch.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Israel-Loc2-TG-MTN","type":"http","server":"isr-loc2.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Romani-TG-MTN","type":"http","server":"ro.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Ukraine-TG-MTN","type":"http","server":"ukr.secureconnect.me","port":7070,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Sweden-TG-MTN","type":"http","server":"swe.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Spain-TG-MTN","type":"http","server":"sp.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Norwey-TG-MTN","type":"http","server":"no.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Russia-TG-MCI","type":"http","server":"ru.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Ukraine-TG-MCI","type":"http","server":"ukr.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Netherlands-TG-MCI","type":"http","server":"nl.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Worker-III-MCI","type":"vless","server":"mci.rayanbala.ir","port":443,"uuid":"aae0527c-5ad5-4a40-b966-fc89e9030083","tls":true,"servername":"worker.rayanbala.ir","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"worker.rayanbala.ir"}}}
+  - {"name":"Patr-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"a2fbb1df-4d4c-482c-bb58-026cd7eef6b2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"80-b12f0dbc3a894ba4afa94486a13873ed.onpatr.cloud","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"80-b12f0dbc3a894ba4afa94486a13873ed.onpatr.cloud"}}}
+  - {"name":"Replit-USA-MCI","type":"vless","server":"mci.rayanbala.ir","port":443,"uuid":"20ac7536-1b8f-4797-8b18-841c7786f99f","tls":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/222.mohammadmoazzen.repl.co/20ac7536-1b8f-4797-8b18-841c7786f99f-vl","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"Okteto-MCI","type":"vless","server":"mci.rayanbala.ir","port":443,"uuid":"5862b16a-3e0e-45f8-b168-ad34fcf60f42","tls":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/mms-mm1362.cloud.okteto.net/vless","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-Dusseldorf-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Dusseldorf.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-Kansas-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Kansas.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-Amsterdam-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Amsterdam.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-Lille-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"GAFN-LosAngeles-MCI","type":"vmess","server":"mci.rayanbala.ir","port":443,"cipher":"none","uuid":"D0248E1C-0C7E-42F7-8BB5-87062BC65F83","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rep.rayanbala.ir","network":"ws","ws-opts":{"path":"/LosAngeles.kotick.site/speedtest","headers":{"host":"rep.rayanbala.ir"}}}
+  - {"name":"Worker-MCI","type":"vless","server":"mci.rayanbala.ir","port":443,"uuid":"ab45ffa4-3873-4208-9e18-3c940445aea4","tls":true,"servername":"11.rayanbala.ir","network":"ws","ws-opts":{"path":"/vless/ab45ffa4-3873-4208-9e18-3c940445aea4","headers":{"host":"11.rayanbala.ir"}}}
+  - {"name":"Worker-II-MCI","type":"vless","server":"mci.rayanbala.ir","port":443,"uuid":"adbdb103-432b-4690-bdee-5204ec6271bd","tls":true,"servername":"test.rayanbala.ir","network":"ws","ws-opts":{"headers":{"host":"test.rayanbala.ir"}}}
+  - {"name":"Israel-Loc1-TG-MCI","type":"http","server":"isr-loc1.secureconnect.me","port":282,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Ireland-TG-MCI","type":"http","server":"ire.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Moldova-TG-MCI","type":"http","server":"md.secureconnect.me","port":778,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Iceland-TG-MCI","type":"http","server":"ice.secureconnect.me","port":282,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Finland-TG-MCI","type":"http","server":"fn.secureconnect.me","port":282,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"USA-SF-TG-MCI","type":"http","server":"us-sf.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Canada-TG-MCI","type":"http","server":"cavan.secureconnect.me","port":778,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
+  - {"name":"Romani-TG-MCI","type":"http","server":"ro.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Russia-TG_1
-      - Ukraine-TG_1
-      - Netherlands-TG
-      - Worker-III-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG
-      - Ireland-TG
-      - Moldova-TG_1
-      - Iceland-TG_1
-      - Finland-TG_1
-      - USA-SF-TG_1
-      - Canada-TG_1
-      - Romani-TG_1
-      - Russia-TG_2
-      - Moldova-TG_2
-      - Iceland-TG_2
-      - Worker-III-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG_2
-      - USA-SF-TG_2
-      - Canada-TG_2
-      - Chile-TG
-      - Israel-Loc2-TG
-      - Romani-TG_2
-      - Ukraine-TG_2
-      - Sweden-TG
-      - Spain-TG
-      - Norwey-TG
-      - Slovakia-TG
-      - Denmark-TG
-      - Portugal-TG
+      - Slovakia-TG-SMT
+      - Denmark-TG-SMT
+      - Portugal-TG-SMT
       - Worker-III-SMT
+      - Patr-SMT
+      - Replit-USA-SMT
+      - Okteto-SMT
       - GAFN-Dusseldorf-SMT
       - GAFN-Kansas-SMT
       - GAFN-Amsterdam-SMT
@@ -133,59 +105,68 @@ proxy-groups:
       - GAFN-LosAngeles-SMT
       - Worker-SMT
       - Worker-II-SMT
-      - Hungry-TG
-      - Poland-TG
-      - Brazil-TG
+      - Hungry-TG-SMT
+      - Poland-TG-SMT
+      - Brazil-TG-SMT
+      - Russia-TG-MTN
+      - Moldova-TG-MTN
+      - Iceland-TG-MTN
+      - Worker-III-MTN
+      - Patr-MTN
+      - Replit-USA-MTN
+      - Okteto-MTN
+      - GAFN-Dusseldorf-MTN
+      - GAFN-Kansas-MTN
+      - GAFN-Amsterdam-MTN
+      - GAFN-Lille-MTN
+      - GAFN-LosAngeles-MTN
+      - Worker-MTN
+      - Worker-II-MTN
+      - Finland-TG-MTN
+      - USA-SF-TG-MTN
+      - Canada-TG-MTN
+      - Chile-TG-MTN
+      - Israel-Loc2-TG-MTN
+      - Romani-TG-MTN
+      - Ukraine-TG-MTN
+      - Sweden-TG-MTN
+      - Spain-TG-MTN
+      - Norwey-TG-MTN
+      - Russia-TG-MCI
+      - Ukraine-TG-MCI
+      - Netherlands-TG-MCI
+      - Worker-III-MCI
+      - Patr-MCI
+      - Replit-USA-MCI
+      - Okteto-MCI
+      - GAFN-Dusseldorf-MCI
+      - GAFN-Kansas-MCI
+      - GAFN-Amsterdam-MCI
+      - GAFN-Lille-MCI
+      - GAFN-LosAngeles-MCI
+      - Worker-MCI
+      - Worker-II-MCI
+      - Israel-Loc1-TG-MCI
+      - Ireland-TG-MCI
+      - Moldova-TG-MCI
+      - Iceland-TG-MCI
+      - Finland-TG-MCI
+      - USA-SF-TG-MCI
+      - Canada-TG-MCI
+      - Romani-TG-MCI
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Russia-TG_1
-      - Ukraine-TG_1
-      - Netherlands-TG
-      - Worker-III-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG
-      - Ireland-TG
-      - Moldova-TG_1
-      - Iceland-TG_1
-      - Finland-TG_1
-      - USA-SF-TG_1
-      - Canada-TG_1
-      - Romani-TG_1
-      - Russia-TG_2
-      - Moldova-TG_2
-      - Iceland-TG_2
-      - Worker-III-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG_2
-      - USA-SF-TG_2
-      - Canada-TG_2
-      - Chile-TG
-      - Israel-Loc2-TG
-      - Romani-TG_2
-      - Ukraine-TG_2
-      - Sweden-TG
-      - Spain-TG
-      - Norwey-TG
-      - Slovakia-TG
-      - Denmark-TG
-      - Portugal-TG
+      - Slovakia-TG-SMT
+      - Denmark-TG-SMT
+      - Portugal-TG-SMT
       - Worker-III-SMT
+      - Patr-SMT
+      - Replit-USA-SMT
+      - Okteto-SMT
       - GAFN-Dusseldorf-SMT
       - GAFN-Kansas-SMT
       - GAFN-Amsterdam-SMT
@@ -193,59 +174,68 @@ proxy-groups:
       - GAFN-LosAngeles-SMT
       - Worker-SMT
       - Worker-II-SMT
-      - Hungry-TG
-      - Poland-TG
-      - Brazil-TG
+      - Hungry-TG-SMT
+      - Poland-TG-SMT
+      - Brazil-TG-SMT
+      - Russia-TG-MTN
+      - Moldova-TG-MTN
+      - Iceland-TG-MTN
+      - Worker-III-MTN
+      - Patr-MTN
+      - Replit-USA-MTN
+      - Okteto-MTN
+      - GAFN-Dusseldorf-MTN
+      - GAFN-Kansas-MTN
+      - GAFN-Amsterdam-MTN
+      - GAFN-Lille-MTN
+      - GAFN-LosAngeles-MTN
+      - Worker-MTN
+      - Worker-II-MTN
+      - Finland-TG-MTN
+      - USA-SF-TG-MTN
+      - Canada-TG-MTN
+      - Chile-TG-MTN
+      - Israel-Loc2-TG-MTN
+      - Romani-TG-MTN
+      - Ukraine-TG-MTN
+      - Sweden-TG-MTN
+      - Spain-TG-MTN
+      - Norwey-TG-MTN
+      - Russia-TG-MCI
+      - Ukraine-TG-MCI
+      - Netherlands-TG-MCI
+      - Worker-III-MCI
+      - Patr-MCI
+      - Replit-USA-MCI
+      - Okteto-MCI
+      - GAFN-Dusseldorf-MCI
+      - GAFN-Kansas-MCI
+      - GAFN-Amsterdam-MCI
+      - GAFN-Lille-MCI
+      - GAFN-LosAngeles-MCI
+      - Worker-MCI
+      - Worker-II-MCI
+      - Israel-Loc1-TG-MCI
+      - Ireland-TG-MCI
+      - Moldova-TG-MCI
+      - Iceland-TG-MCI
+      - Finland-TG-MCI
+      - USA-SF-TG-MCI
+      - Canada-TG-MCI
+      - Romani-TG-MCI
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Russia-TG_1
-      - Ukraine-TG_1
-      - Netherlands-TG
-      - Worker-III-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG
-      - Ireland-TG
-      - Moldova-TG_1
-      - Iceland-TG_1
-      - Finland-TG_1
-      - USA-SF-TG_1
-      - Canada-TG_1
-      - Romani-TG_1
-      - Russia-TG_2
-      - Moldova-TG_2
-      - Iceland-TG_2
-      - Worker-III-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG_2
-      - USA-SF-TG_2
-      - Canada-TG_2
-      - Chile-TG
-      - Israel-Loc2-TG
-      - Romani-TG_2
-      - Ukraine-TG_2
-      - Sweden-TG
-      - Spain-TG
-      - Norwey-TG
-      - Slovakia-TG
-      - Denmark-TG
-      - Portugal-TG
+      - Slovakia-TG-SMT
+      - Denmark-TG-SMT
+      - Portugal-TG-SMT
       - Worker-III-SMT
+      - Patr-SMT
+      - Replit-USA-SMT
+      - Okteto-SMT
       - GAFN-Dusseldorf-SMT
       - GAFN-Kansas-SMT
       - GAFN-Amsterdam-SMT
@@ -253,58 +243,67 @@ proxy-groups:
       - GAFN-LosAngeles-SMT
       - Worker-SMT
       - Worker-II-SMT
-      - Hungry-TG
-      - Poland-TG
-      - Brazil-TG
+      - Hungry-TG-SMT
+      - Poland-TG-SMT
+      - Brazil-TG-SMT
+      - Russia-TG-MTN
+      - Moldova-TG-MTN
+      - Iceland-TG-MTN
+      - Worker-III-MTN
+      - Patr-MTN
+      - Replit-USA-MTN
+      - Okteto-MTN
+      - GAFN-Dusseldorf-MTN
+      - GAFN-Kansas-MTN
+      - GAFN-Amsterdam-MTN
+      - GAFN-Lille-MTN
+      - GAFN-LosAngeles-MTN
+      - Worker-MTN
+      - Worker-II-MTN
+      - Finland-TG-MTN
+      - USA-SF-TG-MTN
+      - Canada-TG-MTN
+      - Chile-TG-MTN
+      - Israel-Loc2-TG-MTN
+      - Romani-TG-MTN
+      - Ukraine-TG-MTN
+      - Sweden-TG-MTN
+      - Spain-TG-MTN
+      - Norwey-TG-MTN
+      - Russia-TG-MCI
+      - Ukraine-TG-MCI
+      - Netherlands-TG-MCI
+      - Worker-III-MCI
+      - Patr-MCI
+      - Replit-USA-MCI
+      - Okteto-MCI
+      - GAFN-Dusseldorf-MCI
+      - GAFN-Kansas-MCI
+      - GAFN-Amsterdam-MCI
+      - GAFN-Lille-MCI
+      - GAFN-LosAngeles-MCI
+      - Worker-MCI
+      - Worker-II-MCI
+      - Israel-Loc1-TG-MCI
+      - Ireland-TG-MCI
+      - Moldova-TG-MCI
+      - Iceland-TG-MCI
+      - Finland-TG-MCI
+      - USA-SF-TG-MCI
+      - Canada-TG-MCI
+      - Romani-TG-MCI
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Russia-TG_1
-      - Ukraine-TG_1
-      - Netherlands-TG
-      - Worker-III-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG
-      - Ireland-TG
-      - Moldova-TG_1
-      - Iceland-TG_1
-      - Finland-TG_1
-      - USA-SF-TG_1
-      - Canada-TG_1
-      - Romani-TG_1
-      - Russia-TG_2
-      - Moldova-TG_2
-      - Iceland-TG_2
-      - Worker-III-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG_2
-      - USA-SF-TG_2
-      - Canada-TG_2
-      - Chile-TG
-      - Israel-Loc2-TG
-      - Romani-TG_2
-      - Ukraine-TG_2
-      - Sweden-TG
-      - Spain-TG
-      - Norwey-TG
-      - Slovakia-TG
-      - Denmark-TG
-      - Portugal-TG
+      - Slovakia-TG-SMT
+      - Denmark-TG-SMT
+      - Portugal-TG-SMT
       - Worker-III-SMT
+      - Patr-SMT
+      - Replit-USA-SMT
+      - Okteto-SMT
       - GAFN-Dusseldorf-SMT
       - GAFN-Kansas-SMT
       - GAFN-Amsterdam-SMT
@@ -312,58 +311,67 @@ proxy-groups:
       - GAFN-LosAngeles-SMT
       - Worker-SMT
       - Worker-II-SMT
-      - Hungry-TG
-      - Poland-TG
-      - Brazil-TG
+      - Hungry-TG-SMT
+      - Poland-TG-SMT
+      - Brazil-TG-SMT
+      - Russia-TG-MTN
+      - Moldova-TG-MTN
+      - Iceland-TG-MTN
+      - Worker-III-MTN
+      - Patr-MTN
+      - Replit-USA-MTN
+      - Okteto-MTN
+      - GAFN-Dusseldorf-MTN
+      - GAFN-Kansas-MTN
+      - GAFN-Amsterdam-MTN
+      - GAFN-Lille-MTN
+      - GAFN-LosAngeles-MTN
+      - Worker-MTN
+      - Worker-II-MTN
+      - Finland-TG-MTN
+      - USA-SF-TG-MTN
+      - Canada-TG-MTN
+      - Chile-TG-MTN
+      - Israel-Loc2-TG-MTN
+      - Romani-TG-MTN
+      - Ukraine-TG-MTN
+      - Sweden-TG-MTN
+      - Spain-TG-MTN
+      - Norwey-TG-MTN
+      - Russia-TG-MCI
+      - Ukraine-TG-MCI
+      - Netherlands-TG-MCI
+      - Worker-III-MCI
+      - Patr-MCI
+      - Replit-USA-MCI
+      - Okteto-MCI
+      - GAFN-Dusseldorf-MCI
+      - GAFN-Kansas-MCI
+      - GAFN-Amsterdam-MCI
+      - GAFN-Lille-MCI
+      - GAFN-LosAngeles-MCI
+      - Worker-MCI
+      - Worker-II-MCI
+      - Israel-Loc1-TG-MCI
+      - Ireland-TG-MCI
+      - Moldova-TG-MCI
+      - Iceland-TG-MCI
+      - Finland-TG-MCI
+      - USA-SF-TG-MCI
+      - Canada-TG-MCI
+      - Romani-TG-MCI
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Russia-TG_1
-      - Ukraine-TG_1
-      - Netherlands-TG
-      - Worker-III-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG
-      - Ireland-TG
-      - Moldova-TG_1
-      - Iceland-TG_1
-      - Finland-TG_1
-      - USA-SF-TG_1
-      - Canada-TG_1
-      - Romani-TG_1
-      - Russia-TG_2
-      - Moldova-TG_2
-      - Iceland-TG_2
-      - Worker-III-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG_2
-      - USA-SF-TG_2
-      - Canada-TG_2
-      - Chile-TG
-      - Israel-Loc2-TG
-      - Romani-TG_2
-      - Ukraine-TG_2
-      - Sweden-TG
-      - Spain-TG
-      - Norwey-TG
-      - Slovakia-TG
-      - Denmark-TG
-      - Portugal-TG
+      - Slovakia-TG-SMT
+      - Denmark-TG-SMT
+      - Portugal-TG-SMT
       - Worker-III-SMT
+      - Patr-SMT
+      - Replit-USA-SMT
+      - Okteto-SMT
       - GAFN-Dusseldorf-SMT
       - GAFN-Kansas-SMT
       - GAFN-Amsterdam-SMT
@@ -371,58 +379,67 @@ proxy-groups:
       - GAFN-LosAngeles-SMT
       - Worker-SMT
       - Worker-II-SMT
-      - Hungry-TG
-      - Poland-TG
-      - Brazil-TG
+      - Hungry-TG-SMT
+      - Poland-TG-SMT
+      - Brazil-TG-SMT
+      - Russia-TG-MTN
+      - Moldova-TG-MTN
+      - Iceland-TG-MTN
+      - Worker-III-MTN
+      - Patr-MTN
+      - Replit-USA-MTN
+      - Okteto-MTN
+      - GAFN-Dusseldorf-MTN
+      - GAFN-Kansas-MTN
+      - GAFN-Amsterdam-MTN
+      - GAFN-Lille-MTN
+      - GAFN-LosAngeles-MTN
+      - Worker-MTN
+      - Worker-II-MTN
+      - Finland-TG-MTN
+      - USA-SF-TG-MTN
+      - Canada-TG-MTN
+      - Chile-TG-MTN
+      - Israel-Loc2-TG-MTN
+      - Romani-TG-MTN
+      - Ukraine-TG-MTN
+      - Sweden-TG-MTN
+      - Spain-TG-MTN
+      - Norwey-TG-MTN
+      - Russia-TG-MCI
+      - Ukraine-TG-MCI
+      - Netherlands-TG-MCI
+      - Worker-III-MCI
+      - Patr-MCI
+      - Replit-USA-MCI
+      - Okteto-MCI
+      - GAFN-Dusseldorf-MCI
+      - GAFN-Kansas-MCI
+      - GAFN-Amsterdam-MCI
+      - GAFN-Lille-MCI
+      - GAFN-LosAngeles-MCI
+      - Worker-MCI
+      - Worker-II-MCI
+      - Israel-Loc1-TG-MCI
+      - Ireland-TG-MCI
+      - Moldova-TG-MCI
+      - Iceland-TG-MCI
+      - Finland-TG-MCI
+      - USA-SF-TG-MCI
+      - Canada-TG-MCI
+      - Romani-TG-MCI
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Russia-TG_1
-      - Ukraine-TG_1
-      - Netherlands-TG
-      - Worker-III-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG
-      - Ireland-TG
-      - Moldova-TG_1
-      - Iceland-TG_1
-      - Finland-TG_1
-      - USA-SF-TG_1
-      - Canada-TG_1
-      - Romani-TG_1
-      - Russia-TG_2
-      - Moldova-TG_2
-      - Iceland-TG_2
-      - Worker-III-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG_2
-      - USA-SF-TG_2
-      - Canada-TG_2
-      - Chile-TG
-      - Israel-Loc2-TG
-      - Romani-TG_2
-      - Ukraine-TG_2
-      - Sweden-TG
-      - Spain-TG
-      - Norwey-TG
-      - Slovakia-TG
-      - Denmark-TG
-      - Portugal-TG
+      - Slovakia-TG-SMT
+      - Denmark-TG-SMT
+      - Portugal-TG-SMT
       - Worker-III-SMT
+      - Patr-SMT
+      - Replit-USA-SMT
+      - Okteto-SMT
       - GAFN-Dusseldorf-SMT
       - GAFN-Kansas-SMT
       - GAFN-Amsterdam-SMT
@@ -430,9 +447,55 @@ proxy-groups:
       - GAFN-LosAngeles-SMT
       - Worker-SMT
       - Worker-II-SMT
-      - Hungry-TG
-      - Poland-TG
-      - Brazil-TG
+      - Hungry-TG-SMT
+      - Poland-TG-SMT
+      - Brazil-TG-SMT
+      - Russia-TG-MTN
+      - Moldova-TG-MTN
+      - Iceland-TG-MTN
+      - Worker-III-MTN
+      - Patr-MTN
+      - Replit-USA-MTN
+      - Okteto-MTN
+      - GAFN-Dusseldorf-MTN
+      - GAFN-Kansas-MTN
+      - GAFN-Amsterdam-MTN
+      - GAFN-Lille-MTN
+      - GAFN-LosAngeles-MTN
+      - Worker-MTN
+      - Worker-II-MTN
+      - Finland-TG-MTN
+      - USA-SF-TG-MTN
+      - Canada-TG-MTN
+      - Chile-TG-MTN
+      - Israel-Loc2-TG-MTN
+      - Romani-TG-MTN
+      - Ukraine-TG-MTN
+      - Sweden-TG-MTN
+      - Spain-TG-MTN
+      - Norwey-TG-MTN
+      - Russia-TG-MCI
+      - Ukraine-TG-MCI
+      - Netherlands-TG-MCI
+      - Worker-III-MCI
+      - Patr-MCI
+      - Replit-USA-MCI
+      - Okteto-MCI
+      - GAFN-Dusseldorf-MCI
+      - GAFN-Kansas-MCI
+      - GAFN-Amsterdam-MCI
+      - GAFN-Lille-MCI
+      - GAFN-LosAngeles-MCI
+      - Worker-MCI
+      - Worker-II-MCI
+      - Israel-Loc1-TG-MCI
+      - Ireland-TG-MCI
+      - Moldova-TG-MCI
+      - Iceland-TG-MCI
+      - Finland-TG-MCI
+      - USA-SF-TG-MCI
+      - Canada-TG-MCI
+      - Romani-TG-MCI
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -455,50 +518,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Russia-TG_1
-      - Ukraine-TG_1
-      - Netherlands-TG
-      - Worker-III-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG
-      - Ireland-TG
-      - Moldova-TG_1
-      - Iceland-TG_1
-      - Finland-TG_1
-      - USA-SF-TG_1
-      - Canada-TG_1
-      - Romani-TG_1
-      - Russia-TG_2
-      - Moldova-TG_2
-      - Iceland-TG_2
-      - Worker-III-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG_2
-      - USA-SF-TG_2
-      - Canada-TG_2
-      - Chile-TG
-      - Israel-Loc2-TG
-      - Romani-TG_2
-      - Ukraine-TG_2
-      - Sweden-TG
-      - Spain-TG
-      - Norwey-TG
-      - Slovakia-TG
-      - Denmark-TG
-      - Portugal-TG
+      - Slovakia-TG-SMT
+      - Denmark-TG-SMT
+      - Portugal-TG-SMT
       - Worker-III-SMT
+      - Patr-SMT
+      - Replit-USA-SMT
+      - Okteto-SMT
       - GAFN-Dusseldorf-SMT
       - GAFN-Kansas-SMT
       - GAFN-Amsterdam-SMT
@@ -506,9 +532,55 @@ proxy-groups:
       - GAFN-LosAngeles-SMT
       - Worker-SMT
       - Worker-II-SMT
-      - Hungry-TG
-      - Poland-TG
-      - Brazil-TG
+      - Hungry-TG-SMT
+      - Poland-TG-SMT
+      - Brazil-TG-SMT
+      - Russia-TG-MTN
+      - Moldova-TG-MTN
+      - Iceland-TG-MTN
+      - Worker-III-MTN
+      - Patr-MTN
+      - Replit-USA-MTN
+      - Okteto-MTN
+      - GAFN-Dusseldorf-MTN
+      - GAFN-Kansas-MTN
+      - GAFN-Amsterdam-MTN
+      - GAFN-Lille-MTN
+      - GAFN-LosAngeles-MTN
+      - Worker-MTN
+      - Worker-II-MTN
+      - Finland-TG-MTN
+      - USA-SF-TG-MTN
+      - Canada-TG-MTN
+      - Chile-TG-MTN
+      - Israel-Loc2-TG-MTN
+      - Romani-TG-MTN
+      - Ukraine-TG-MTN
+      - Sweden-TG-MTN
+      - Spain-TG-MTN
+      - Norwey-TG-MTN
+      - Russia-TG-MCI
+      - Ukraine-TG-MCI
+      - Netherlands-TG-MCI
+      - Worker-III-MCI
+      - Patr-MCI
+      - Replit-USA-MCI
+      - Okteto-MCI
+      - GAFN-Dusseldorf-MCI
+      - GAFN-Kansas-MCI
+      - GAFN-Amsterdam-MCI
+      - GAFN-Lille-MCI
+      - GAFN-LosAngeles-MCI
+      - Worker-MCI
+      - Worker-II-MCI
+      - Israel-Loc1-TG-MCI
+      - Ireland-TG-MCI
+      - Moldova-TG-MCI
+      - Iceland-TG-MCI
+      - Finland-TG-MCI
+      - USA-SF-TG-MCI
+      - Canada-TG-MCI
+      - Romani-TG-MCI
 
 rules:
 # 本地/局域网地址
@@ -4139,18 +4211,3 @@ rules:
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-rule-providers:
-  iran_other:
-    type: http
-    format: text
-    behavior: domain
-    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_other.txt"
-    path: ./ruleset/iran_other.txt
-    interval: 432000
-  iran_ads:
-    type: http
-    format: text
-    behavior: domain
-    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.txt"
-    path: ./ruleset/iran_ads.txt
-    interval: 432000
