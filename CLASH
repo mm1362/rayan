@@ -1,25 +1,171 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：11-07-2023 21:32:58
-# 使用模版：V2RaySE 默认模版
-# 节点数量：63
-####################################
+# 创建时间：13-07-2023 05:31:30
+# 使用模版：Test
+# 节点数量：309
+# 节点类型：vless
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
-mixed-port: 7890
+####################################
+global-client-fingerprint: chrome
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
 allow-lan: true
 log-level: info
+cfw-latency-timeout: 8000
+cfw-latency-url: https://api.v2fly.org/checkConnection.svgz
+cfw-proxies-order: latency
 external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: '*'
+unified-delay: true
+profile:
+  store-selected: true
+  store-fake-ip: true
 dns:
-  enabled: true
+  enable: true
+  ipv6: true
+  use-host: true
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
   nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - https://1.1.1.1/dns-query#en0
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://dns.nextdns.io
+    - https://doh.opendns.com/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://dns.surfshark.com/dns-query
+    - https://8.8.8.8/dns-query
+    - https://9.9.9.9/dns-query
+    - https://doh.cleanbrowsing.org/doh/security-filter/
+    - https://resolver2.dns.watch/dns-query
+    - https://doh-de.blahdns.com/dns-query
+    - https://freedns.controld.com/p2
+    - https://dns.dnswarden.com/adblock
+    - https://adblock.doh.mullvad.net/dns-query
+    - https://basic.rethinkdns.com/dns-query
     - tls://1.0.0.1:853
+    - tls://1.1.1.1:853
     - tls://dns.google:853
+    - 162.159.36.1
+    - 162.159.46.1
+    - https://dns.aa.net.uk/dns-query
+    - https://rubyfish.cn/dns-query
+    - https://nsc.torgues.net/dns-query
+    - https://xmission-slc-1.edge.nextdns.io/dns-query
+    - https://Doh1.B-Cdn.net/dns-query
+    - https://dns.melalandia.tk/dns-query
+    - https://jp-kix2.doh.sb/
+    - https://dns.gi.co.id/dns-query
+    - https://dns.controld.com/
+    - https://xtom-osa-1.edge.nextdns.io/dns-query
+    - https://170.176.145.150/
+    - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
+    - https://res-acst3.absolight.net/
+    - https://zepto-sto-1.edge.nextdns.io
+    - https://doh.dns.sb/dns-query
+    - tls://dns.rubyfish.cn:853
+    - tls://8.8.8.8#en0
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - music.163.com
+    - '*.music.163.com'
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - '*.y.qq.com'
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - '*.xiami.com'
+    - '*.music.migu.cn'
+    - music.migu.cn
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - msftconnecttest.com
+    - msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - heartbeat.belkin.com
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - '*.router.asus.com'
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - +.nflxvideo.net
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
+    - '*.mcdn.bilivideo.cn'
+    - +.media.dssott.com
 
 proxies:
   - {"name":"Slovakia-TG-SMT","type":"http","server":"slk.secureconnect.me","port":993,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
@@ -86,518 +232,1661 @@ proxies:
   - {"name":"Canada-TG-MCI","type":"http","server":"cavan.secureconnect.me","port":778,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
   - {"name":"Romani-TG-MCI","type":"http","server":"ro.secureconnect.me","port":489,"username":"mms.1362","password":"rayanbala.ir","tls":true,"skip-cert-verify":true}
 proxy-groups:
-  - name: 🚀 节点选择
+  - name: 🔀 نوع انتخاب پروکسی
     type: select
     proxies:
-      - ♻️ 自动选择
-      - DIRECT
-      - Slovakia-TG-SMT
-      - Denmark-TG-SMT
-      - Portugal-TG-SMT
-      - Worker-III-SMT
-      - Patr-SMT
-      - Replit-USA-SMT
-      - Okteto-SMT
-      - GAFN-Dusseldorf-SMT
-      - GAFN-Kansas-SMT
-      - GAFN-Amsterdam-SMT
-      - GAFN-Lille-SMT
-      - GAFN-LosAngeles-SMT
-      - Worker-SMT
-      - Worker-II-SMT
-      - Hungry-TG-SMT
-      - Poland-TG-SMT
-      - Brazil-TG-SMT
-      - Russia-TG-MTN
-      - Moldova-TG-MTN
-      - Iceland-TG-MTN
-      - Worker-III-MTN
-      - Patr-MTN
-      - Replit-USA-MTN
-      - Okteto-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG-MTN
-      - USA-SF-TG-MTN
-      - Canada-TG-MTN
-      - Chile-TG-MTN
-      - Israel-Loc2-TG-MTN
-      - Romani-TG-MTN
-      - Ukraine-TG-MTN
-      - Sweden-TG-MTN
-      - Spain-TG-MTN
-      - Norwey-TG-MTN
-      - Russia-TG-MCI
-      - Ukraine-TG-MCI
-      - Netherlands-TG-MCI
-      - Worker-III-MCI
-      - Patr-MCI
-      - Replit-USA-MCI
-      - Okteto-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG-MCI
-      - Ireland-TG-MCI
-      - Moldova-TG-MCI
-      - Iceland-TG-MCI
-      - Finland-TG-MCI
-      - USA-SF-TG-MCI
-      - Canada-TG-MCI
-      - Romani-TG-MCI
-  - name: ♻️ 自动选择
+      - خودکار (بهترین پینگ) 🤖
+      - دستی 🤏🏻
+      - پشتیبان (بهترین پینگ) ➡️
+      - توزیع بار (هش سازگار) ♻️
+      - توزیع بار (یکنواخت) ⏳
+      - ⛔ قطع اینترنت
+      - 🛡️ بدون فیلترشکن
+  - name: 📶 انتخاب نوع اتصال
+    type: select
+    proxies:
+      - 🌐 همه سایتا
+      - 🔐 فقط سایتای فیلتر شده
+  - name: دستی 🤏🏻
+    type: select
+    proxies:
+      - _🇺🇸𖤛⟪@LonUp_M⟫𖤛8_1
+      - _4Nika-7705_2
+      - _RescueNet-985_1_4
+      - _RescueNet-1013_5
+      - _RescueNet-1241_1_6
+      - _RescueNet-1274_1_7
+      - _RescueNet-1415_8
+      - _RescueNet-1439_1_9
+      - _RescueNet-1559_1_10
+      - _RescueNet-2128_1_12
+      - _RescueNet-2951_1_13
+      - _RescueNet-3176_1_14
+      - _RescueNet-3191_1_15
+      - _RescueNet-3389_16
+      - _RescueNet-3732_17
+      - _RescueNet-3913_18
+      - _RescueNet-4501_19
+      - _RescueNet-4760_20
+      - _RescueNet-4890_22
+      - _RescueNet-4968_23
+      - _RescueNet-5712_25
+      - _RescueNet-5761_26
+      - _RescueNet-5783_27
+      - _RescueNet-6533_29
+      - _RescueNet-6541_30
+      - _RescueNet-6568_31
+      - _RescueNet-6633_32
+      - _RescueNet-7272_34
+      - _RescueNet-7318_35
+      - _RescueNet-7492_36
+      - _RescueNet-7534_37
+      - _RescueNet-8024_40
+      - _RescueNet-8187_41
+      - _[🌐]+➠+T.me/ConfigV2RayNG_43
+      - _برای+اتصال+دائمی+جوین+شو🍦@ConfigV2RayNG_44
+      - _[🚀]+➠+ConfigV2RayNG_1_45
+      - _[🚀]+➠+ConfigV2RayNG_2_46
+      - _🇺🇸_US_美国_Beigi_MCI2_47
+      - _🇺🇸_US_美国_Mahmoodi_MCI2_48
+      - _🇺🇸_US_美国_Seyed_MCI1_49
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_1_50
+      - _🇺🇸_US_美国_Saeedeh_MCI1_51
+      - _🇺🇸_US_美国_Sedaghat_MCI2_52
+      - _🇺🇸_US_美国_Maryam_MCI1_53
+      - _🇺🇸_US_美国_Amirhosein_MCI2_54
+      - _🇪🇸_ES_西班牙_Farshad_Backup_1_55
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_2_56
+      - _🇪🇸_ES_西班牙_Farshad_Backup_2_57
+      - _🇸🇬_SG_新加坡_玉豆_11_58
+      - _🇺🇸_US_美国_Amirhosein_ARV2_59
+      - _4Jadi-5574_60
+      - _4Jadi-5596_61
+      - _4Jadi-5602_62
+      - _4Jadi-5603_63
+      - _4Jadi-5608_64
+      - _4Jadi-5626_67
+      - _4Jadi-5627_68
+      - _4Jadi-5652_69
+      - _4Jadi-5653_70
+      - _4Jadi-5654_71
+      - _4Jadi-5661_72
+      - _4Jadi-5662_73
+      - _4Jadi-5663_74
+      - _4Jadi-5664_75
+      - _4Jadi-5690_76
+      - _4Jadi-5691_77
+      - _4Jadi-5739_78
+      - _4Jadi-5740_79
+      - _4Jadi-5741_80
+      - _4Jadi-5757_81
+      - _4Jadi-5758_82
+      - _4Jadi-5880_83
+      - _4Jadi-5881_84
+      - _4Jadi-5897_85
+      - _4Jadi-5898_86
+      - _4Jadi-5901_87
+      - _4Jadi-5989_88
+      - _4Jadi-6006_89
+      - _4Jadi-6036_90
+      - _4Jadi-6038_91
+      - _4Jadi-6040_92
+      - _4Jadi-6056_93
+      - _4Jadi-6097_101
+      - _4Jadi-6098_102
+      - _4Jadi-6169_105
+      - _4Jadi-6222_106
+      - _4Jadi-6311_107
+      - _4Jadi-6318_108
+      - _4Jadi-6559_109
+      - _4Jadi-6560_110
+      - _4Jadi-6561_111
+      - _4Jadi-6562_112
+      - _4Jadi-6564_113
+      - _4Jadi-6565_114
+      - _4Jadi-6584_115
+      - _4Jadi-6585_116
+      - _4Jadi-6595_117
+      - _4Jadi-6635_118
+      - _4Jadi-6638_119
+      - _4Jadi-6639_120
+      - _4Jadi-6653_121
+      - _4Jadi-6654_122
+      - _4Jadi-6696_123
+      - _4Jadi-6704_124
+      - _4Jadi-6725_125
+      - _4Jadi-6728_126
+      - _4Jadi-6740_127
+      - _4Jadi-6742_128
+      - _4Jadi-6743_129
+      - _4Jadi-6744_130
+      - _4Jadi-6840_131
+      - _4Jadi-6841_132
+      - _4Jadi-6872_133
+      - _4Jadi-6878_134
+      - _4Jadi-6890_135
+      - _4Jadi-6898_136
+      - _🇩🇪_Tel:@HopeVPN_137
+      - _🇦🇿_Tel:@HopeVPN_138
+      - _🇺🇸_美国_<VV科技>_1_139
+      - _🇺🇸_美国_<VV科技>_2_140
+      - _🇺🇸_美国_<VV科技>_3_141
+      - _伊朗_0712024_142
+      - _伊朗_0712025_143
+      - _伊朗_0712026_144
+      - _伊朗_0712027_145
+      - _伊朗_0712028_146
+      - _德国_0712114_147
+      - _美国_07124075_148
+      - _美国_07124076_149
+      - _美国_07124077_150
+      - _美国_07124078_151
+      - _美国_07124079_152
+      - _美国_07124080_153
+      - _美国_07124081_154
+      - _美国_07124082_155
+      - _美国_07124083_156
+      - _美国_07124085_157
+      - _美国_07124087_158
+      - _美国_07124089_159
+      - _美国_07124093_160
+      - _美国_07124097_161
+      - _🇯🇵_JP_日本_阿伟_09_162
+      - _🇺🇸_US_美国_VV科技_12_1_163
+      - _🇺🇸_US_美国_Seyed_ARV1_164
+      - _🇺🇸_US_美国_Rasti_MCI1_165
+      - _🇫🇷_FR_法国_阿伟_12_166
+      - _🇺🇸_US_美国_VV科技_12_2_167
+      - _🇺🇸_US_美国_9_168
+      - _🇺🇸_US_美国_Farshad_ARV2_169
+      - _🇺🇸 US Reality 1_170
+      - _🇫🇷 FR Reality 2_171
+      - _🇩🇪 GE - CF_172
+      - _@V2rayNGn|🚩|4.25_173
+      - _REALITY|@Outline_Vpn|🇺🇸|7.23_174
+      - _REALITY|@vmessorg|🇩🇪|167.21_175
+      - _REALITY|@v2rayNG_Matsuri|🇩🇪|155.29_176
+      - _@ShadowProxy66|🇮🇷|184.71_177
+      - _REALITY|@ShadowProxy66|🇩🇪|198.81_178
+      - _REALITY|@kiava|🇩🇪|164.96_179
+      - _REALITY|@VpnProSec|🇬🇧|154.16_180
+      - _@NIM_VPN_ir|🚩|5.25_181
+      - _REALITY|@shopingv2ray|🇱🇻|178.84_182
+      - _@Proxy_PJ|🚩|4.82_183
+      - _@proxyymeliii|🇮🇷|241.39_185
+      - _@free_v2rayyy|🚩|1.81_186
+      - _REALITY|@v2ray1_ng|🇩🇪|159.81_187
+      - _@MTConfig|🇫🇮|175.2_188
+      - _@MTConfig|🚩|2.12_189
+      - _@PNG_V2rayNG|🚩|2.62_190
+      - _@v2rayNG_VPNN|🚩|1.9_191
+      - _REALITY|@v2rayNG_VPNN|🇬🇧|145.45_192
+      - _@MehradLearn|🚩|4.66_193
+      - _@MehradLearn|🚩|3.95_194
+      - _REALITY|@ConfigsHUB|🇺🇸|83.12_195
+      - _REALITY|@TheHotVPN|🇩🇪|172.56_196
+      - _@freeconfigv2|🚩|4.3_197
+      - _@freeconfigv2|🚩|1.7_198
+      - _REALITY|@freeconfigv2|🇩🇪|164.22_199
+      - _REALITY|@V2rayngninja|🇩🇪|155.38_200
+      - _REALITY|@proxystore11|🇺🇸|83.21_201
+      - _REALITY|@v2rayngvp|🇬🇧|145.22_204
+      - _REALITY|@fnet00|🇩🇪|155.55_205
+      - _🇱🇻 Latvia 01⚡⚡⚡_206
+      - _🇩🇪 Germany 04⚡⚡⚡_207
+      - _🇩🇪 Germany 05⚡⚡⚡_208
+      - _🇩🇪 Germany 08⚡⚡⚡_209
+      - _🇫🇷 France 03⚡⚡⚡_210
+      - _🇩🇪 Germany 10⚡⚡⚡_211
+      - _🇩🇪 Germany 11⚡⚡⚡_212
+      - _🇷🇺 Russia 01⚡⚡⚡_213
+      - _🇩🇪 Germany 12⚡⚡⚡_214
+      - _🇩🇪 Germany 14⚡⚡⚡_215
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_1_216"
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_2_217"
+      - _4Sarina-6727_219
+      - _4Sarina-6736_220
+      - _4Sarina-6737_221
+      - _4Sarina-6741_222
+      - _4Sarina-6769_223
+      - _4Sarina-6770_224
+      - _4Sarina-6771_225
+      - ️‍🌈_4Sarina-6775_226
+      - ️‍🌈_4Sarina-6776_227
+      - ️‍🌈_4Sarina-6777_228
+      - ️‍🌈_4Sarina-6779_229
+      - _4Sarina-6820_230
+      - _4Sarina-6828_231
+      - _4Sarina-6829_232
+      - _4Sarina-6830_233
+      - _4Sarina-6831_234
+      - _4Sarina-6875_235
+      - _4Sarina-6887_236
+      - _4Sarina-7035_237
+      - _4Sarina-7043_238
+      - _4Sarina-7044_239
+      - _4Sarina-7061_240
+      - _4Sarina-7162_241
+      - _4Sarina-7217_242
+      - _4Sarina-7254_250
+      - _4Sarina-7255_251
+      - _4Sarina-7293_252
+      - _4Sarina-7370_254
+      - _4Sarina-7470_255
+      - _4Sarina-7719_259
+      - _4Sarina-7720_260
+      - _4Sarina-7722_261
+      - _4Sarina-7724_262
+      - _4Sarina-7780_263
+      - _4Sarina-7824_265
+      - _4Sarina-7846_266
+      - _4Sarina-7892_267
+      - _4Sarina-7930_268
+      - _4Sarina-7952_269
+      - _4Sarina-7959_270
+      - _4Sarina-7960_271
+      - _4Sarina-7961_272
+      - _4Sarina-7983_273
+      - _4Sarina-7984_274
+      - _4Sarina-7995_275
+      - _4Sarina-8018_276
+      - _4Sarina-8034_277
+      - _4Sarina-8035_278
+      - _Iranian+Cypherpunks+8443_1_279
+      - _Iranian+Cypherpunks+8443_2_280
+      - _Iranian+Cypherpunks+443+worker_281
+      - _伊朗_0711009_282
+      - _伊朗_0711010_283
+      - _伊朗_0711011_284
+      - _伊朗_0711012_285
+      - _伊朗_0711014_286
+      - _伊朗_0711015_287
+      - _美国_07111606_288
+      - _美国_07111608_289
+      - _美国_07111609_290
+      - _美国_07111621_291
+      - _美国_07111622_292
+      - _RescueNet-567_293
+      - _RescueNet-960_294
+      - _RescueNet-985_2_296
+      - _RescueNet-1241_2_297
+      - _RescueNet-1274_2_298
+      - _RescueNet-1439_2_299
+      - _RescueNet-1559_2_300
+      - _RescueNet-2128_2_301
+      - _RescueNet-2951_2_302
+      - _RescueNet-3176_2_303
+      - _RescueNet-3191_2_304
+      - _RescueNet-4579_305
+      - _RescueNet-5228_307
+      - ️‍🌈_RescueNet-5265_308
+  - name: خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     proxies:
-      - Slovakia-TG-SMT
-      - Denmark-TG-SMT
-      - Portugal-TG-SMT
-      - Worker-III-SMT
-      - Patr-SMT
-      - Replit-USA-SMT
-      - Okteto-SMT
-      - GAFN-Dusseldorf-SMT
-      - GAFN-Kansas-SMT
-      - GAFN-Amsterdam-SMT
-      - GAFN-Lille-SMT
-      - GAFN-LosAngeles-SMT
-      - Worker-SMT
-      - Worker-II-SMT
-      - Hungry-TG-SMT
-      - Poland-TG-SMT
-      - Brazil-TG-SMT
-      - Russia-TG-MTN
-      - Moldova-TG-MTN
-      - Iceland-TG-MTN
-      - Worker-III-MTN
-      - Patr-MTN
-      - Replit-USA-MTN
-      - Okteto-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG-MTN
-      - USA-SF-TG-MTN
-      - Canada-TG-MTN
-      - Chile-TG-MTN
-      - Israel-Loc2-TG-MTN
-      - Romani-TG-MTN
-      - Ukraine-TG-MTN
-      - Sweden-TG-MTN
-      - Spain-TG-MTN
-      - Norwey-TG-MTN
-      - Russia-TG-MCI
-      - Ukraine-TG-MCI
-      - Netherlands-TG-MCI
-      - Worker-III-MCI
-      - Patr-MCI
-      - Replit-USA-MCI
-      - Okteto-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG-MCI
-      - Ireland-TG-MCI
-      - Moldova-TG-MCI
-      - Iceland-TG-MCI
-      - Finland-TG-MCI
-      - USA-SF-TG-MCI
-      - Canada-TG-MCI
-      - Romani-TG-MCI
-  - name: 🌍 国外媒体
+      - _🇺🇸𖤛⟪@LonUp_M⟫𖤛8_1
+      - _4Nika-7705_2
+      - _RescueNet-985_1_4
+      - _RescueNet-1013_5
+      - _RescueNet-1241_1_6
+      - _RescueNet-1274_1_7
+      - _RescueNet-1415_8
+      - _RescueNet-1439_1_9
+      - _RescueNet-1559_1_10
+      - _RescueNet-2128_1_12
+      - _RescueNet-2951_1_13
+      - _RescueNet-3176_1_14
+      - _RescueNet-3191_1_15
+      - _RescueNet-3389_16
+      - _RescueNet-3732_17
+      - _RescueNet-3913_18
+      - _RescueNet-4501_19
+      - _RescueNet-4760_20
+      - _RescueNet-4890_22
+      - _RescueNet-4968_23
+      - _RescueNet-5712_25
+      - _RescueNet-5761_26
+      - _RescueNet-5783_27
+      - _RescueNet-6533_29
+      - _RescueNet-6541_30
+      - _RescueNet-6568_31
+      - _RescueNet-6633_32
+      - _RescueNet-7272_34
+      - _RescueNet-7318_35
+      - _RescueNet-7492_36
+      - _RescueNet-7534_37
+      - _RescueNet-8024_40
+      - _RescueNet-8187_41
+      - _[🌐]+➠+T.me/ConfigV2RayNG_43
+      - _برای+اتصال+دائمی+جوین+شو🍦@ConfigV2RayNG_44
+      - _[🚀]+➠+ConfigV2RayNG_1_45
+      - _[🚀]+➠+ConfigV2RayNG_2_46
+      - _🇺🇸_US_美国_Beigi_MCI2_47
+      - _🇺🇸_US_美国_Mahmoodi_MCI2_48
+      - _🇺🇸_US_美国_Seyed_MCI1_49
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_1_50
+      - _🇺🇸_US_美国_Saeedeh_MCI1_51
+      - _🇺🇸_US_美国_Sedaghat_MCI2_52
+      - _🇺🇸_US_美国_Maryam_MCI1_53
+      - _🇺🇸_US_美国_Amirhosein_MCI2_54
+      - _🇪🇸_ES_西班牙_Farshad_Backup_1_55
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_2_56
+      - _🇪🇸_ES_西班牙_Farshad_Backup_2_57
+      - _🇸🇬_SG_新加坡_玉豆_11_58
+      - _🇺🇸_US_美国_Amirhosein_ARV2_59
+      - _4Jadi-5574_60
+      - _4Jadi-5596_61
+      - _4Jadi-5602_62
+      - _4Jadi-5603_63
+      - _4Jadi-5608_64
+      - _4Jadi-5626_67
+      - _4Jadi-5627_68
+      - _4Jadi-5652_69
+      - _4Jadi-5653_70
+      - _4Jadi-5654_71
+      - _4Jadi-5661_72
+      - _4Jadi-5662_73
+      - _4Jadi-5663_74
+      - _4Jadi-5664_75
+      - _4Jadi-5690_76
+      - _4Jadi-5691_77
+      - _4Jadi-5739_78
+      - _4Jadi-5740_79
+      - _4Jadi-5741_80
+      - _4Jadi-5757_81
+      - _4Jadi-5758_82
+      - _4Jadi-5880_83
+      - _4Jadi-5881_84
+      - _4Jadi-5897_85
+      - _4Jadi-5898_86
+      - _4Jadi-5901_87
+      - _4Jadi-5989_88
+      - _4Jadi-6006_89
+      - _4Jadi-6036_90
+      - _4Jadi-6038_91
+      - _4Jadi-6040_92
+      - _4Jadi-6056_93
+      - _4Jadi-6097_101
+      - _4Jadi-6098_102
+      - _4Jadi-6169_105
+      - _4Jadi-6222_106
+      - _4Jadi-6311_107
+      - _4Jadi-6318_108
+      - _4Jadi-6559_109
+      - _4Jadi-6560_110
+      - _4Jadi-6561_111
+      - _4Jadi-6562_112
+      - _4Jadi-6564_113
+      - _4Jadi-6565_114
+      - _4Jadi-6584_115
+      - _4Jadi-6585_116
+      - _4Jadi-6595_117
+      - _4Jadi-6635_118
+      - _4Jadi-6638_119
+      - _4Jadi-6639_120
+      - _4Jadi-6653_121
+      - _4Jadi-6654_122
+      - _4Jadi-6696_123
+      - _4Jadi-6704_124
+      - _4Jadi-6725_125
+      - _4Jadi-6728_126
+      - _4Jadi-6740_127
+      - _4Jadi-6742_128
+      - _4Jadi-6743_129
+      - _4Jadi-6744_130
+      - _4Jadi-6840_131
+      - _4Jadi-6841_132
+      - _4Jadi-6872_133
+      - _4Jadi-6878_134
+      - _4Jadi-6890_135
+      - _4Jadi-6898_136
+      - _🇩🇪_Tel:@HopeVPN_137
+      - _🇦🇿_Tel:@HopeVPN_138
+      - _🇺🇸_美国_<VV科技>_1_139
+      - _🇺🇸_美国_<VV科技>_2_140
+      - _🇺🇸_美国_<VV科技>_3_141
+      - _伊朗_0712024_142
+      - _伊朗_0712025_143
+      - _伊朗_0712026_144
+      - _伊朗_0712027_145
+      - _伊朗_0712028_146
+      - _德国_0712114_147
+      - _美国_07124075_148
+      - _美国_07124076_149
+      - _美国_07124077_150
+      - _美国_07124078_151
+      - _美国_07124079_152
+      - _美国_07124080_153
+      - _美国_07124081_154
+      - _美国_07124082_155
+      - _美国_07124083_156
+      - _美国_07124085_157
+      - _美国_07124087_158
+      - _美国_07124089_159
+      - _美国_07124093_160
+      - _美国_07124097_161
+      - _🇯🇵_JP_日本_阿伟_09_162
+      - _🇺🇸_US_美国_VV科技_12_1_163
+      - _🇺🇸_US_美国_Seyed_ARV1_164
+      - _🇺🇸_US_美国_Rasti_MCI1_165
+      - _🇫🇷_FR_法国_阿伟_12_166
+      - _🇺🇸_US_美国_VV科技_12_2_167
+      - _🇺🇸_US_美国_9_168
+      - _🇺🇸_US_美国_Farshad_ARV2_169
+      - _🇺🇸 US Reality 1_170
+      - _🇫🇷 FR Reality 2_171
+      - _🇩🇪 GE - CF_172
+      - _@V2rayNGn|🚩|4.25_173
+      - _REALITY|@Outline_Vpn|🇺🇸|7.23_174
+      - _REALITY|@vmessorg|🇩🇪|167.21_175
+      - _REALITY|@v2rayNG_Matsuri|🇩🇪|155.29_176
+      - _@ShadowProxy66|🇮🇷|184.71_177
+      - _REALITY|@ShadowProxy66|🇩🇪|198.81_178
+      - _REALITY|@kiava|🇩🇪|164.96_179
+      - _REALITY|@VpnProSec|🇬🇧|154.16_180
+      - _@NIM_VPN_ir|🚩|5.25_181
+      - _REALITY|@shopingv2ray|🇱🇻|178.84_182
+      - _@Proxy_PJ|🚩|4.82_183
+      - _@proxyymeliii|🇮🇷|241.39_185
+      - _@free_v2rayyy|🚩|1.81_186
+      - _REALITY|@v2ray1_ng|🇩🇪|159.81_187
+      - _@MTConfig|🇫🇮|175.2_188
+      - _@MTConfig|🚩|2.12_189
+      - _@PNG_V2rayNG|🚩|2.62_190
+      - _@v2rayNG_VPNN|🚩|1.9_191
+      - _REALITY|@v2rayNG_VPNN|🇬🇧|145.45_192
+      - _@MehradLearn|🚩|4.66_193
+      - _@MehradLearn|🚩|3.95_194
+      - _REALITY|@ConfigsHUB|🇺🇸|83.12_195
+      - _REALITY|@TheHotVPN|🇩🇪|172.56_196
+      - _@freeconfigv2|🚩|4.3_197
+      - _@freeconfigv2|🚩|1.7_198
+      - _REALITY|@freeconfigv2|🇩🇪|164.22_199
+      - _REALITY|@V2rayngninja|🇩🇪|155.38_200
+      - _REALITY|@proxystore11|🇺🇸|83.21_201
+      - _REALITY|@v2rayngvp|🇬🇧|145.22_204
+      - _REALITY|@fnet00|🇩🇪|155.55_205
+      - _🇱🇻 Latvia 01⚡⚡⚡_206
+      - _🇩🇪 Germany 04⚡⚡⚡_207
+      - _🇩🇪 Germany 05⚡⚡⚡_208
+      - _🇩🇪 Germany 08⚡⚡⚡_209
+      - _🇫🇷 France 03⚡⚡⚡_210
+      - _🇩🇪 Germany 10⚡⚡⚡_211
+      - _🇩🇪 Germany 11⚡⚡⚡_212
+      - _🇷🇺 Russia 01⚡⚡⚡_213
+      - _🇩🇪 Germany 12⚡⚡⚡_214
+      - _🇩🇪 Germany 14⚡⚡⚡_215
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_1_216"
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_2_217"
+      - _4Sarina-6727_219
+      - _4Sarina-6736_220
+      - _4Sarina-6737_221
+      - _4Sarina-6741_222
+      - _4Sarina-6769_223
+      - _4Sarina-6770_224
+      - _4Sarina-6771_225
+      - ️‍🌈_4Sarina-6775_226
+      - ️‍🌈_4Sarina-6776_227
+      - ️‍🌈_4Sarina-6777_228
+      - ️‍🌈_4Sarina-6779_229
+      - _4Sarina-6820_230
+      - _4Sarina-6828_231
+      - _4Sarina-6829_232
+      - _4Sarina-6830_233
+      - _4Sarina-6831_234
+      - _4Sarina-6875_235
+      - _4Sarina-6887_236
+      - _4Sarina-7035_237
+      - _4Sarina-7043_238
+      - _4Sarina-7044_239
+      - _4Sarina-7061_240
+      - _4Sarina-7162_241
+      - _4Sarina-7217_242
+      - _4Sarina-7254_250
+      - _4Sarina-7255_251
+      - _4Sarina-7293_252
+      - _4Sarina-7370_254
+      - _4Sarina-7470_255
+      - _4Sarina-7719_259
+      - _4Sarina-7720_260
+      - _4Sarina-7722_261
+      - _4Sarina-7724_262
+      - _4Sarina-7780_263
+      - _4Sarina-7824_265
+      - _4Sarina-7846_266
+      - _4Sarina-7892_267
+      - _4Sarina-7930_268
+      - _4Sarina-7952_269
+      - _4Sarina-7959_270
+      - _4Sarina-7960_271
+      - _4Sarina-7961_272
+      - _4Sarina-7983_273
+      - _4Sarina-7984_274
+      - _4Sarina-7995_275
+      - _4Sarina-8018_276
+      - _4Sarina-8034_277
+      - _4Sarina-8035_278
+      - _Iranian+Cypherpunks+8443_1_279
+      - _Iranian+Cypherpunks+8443_2_280
+      - _Iranian+Cypherpunks+443+worker_281
+      - _伊朗_0711009_282
+      - _伊朗_0711010_283
+      - _伊朗_0711011_284
+      - _伊朗_0711012_285
+      - _伊朗_0711014_286
+      - _伊朗_0711015_287
+      - _美国_07111606_288
+      - _美国_07111608_289
+      - _美国_07111609_290
+      - _美国_07111621_291
+      - _美国_07111622_292
+      - _RescueNet-567_293
+      - _RescueNet-960_294
+      - _RescueNet-985_2_296
+      - _RescueNet-1241_2_297
+      - _RescueNet-1274_2_298
+      - _RescueNet-1439_2_299
+      - _RescueNet-1559_2_300
+      - _RescueNet-2128_2_301
+      - _RescueNet-2951_2_302
+      - _RescueNet-3176_2_303
+      - _RescueNet-3191_2_304
+      - _RescueNet-4579_305
+      - _RescueNet-5228_307
+      - ️‍🌈_RescueNet-5265_308
+  - name: پشتیبان (بهترین پینگ) ➡️
+    type: fallback
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
+    proxies:
+      - _🇺🇸𖤛⟪@LonUp_M⟫𖤛8_1
+      - _4Nika-7705_2
+      - _RescueNet-985_1_4
+      - _RescueNet-1013_5
+      - _RescueNet-1241_1_6
+      - _RescueNet-1274_1_7
+      - _RescueNet-1415_8
+      - _RescueNet-1439_1_9
+      - _RescueNet-1559_1_10
+      - _RescueNet-2128_1_12
+      - _RescueNet-2951_1_13
+      - _RescueNet-3176_1_14
+      - _RescueNet-3191_1_15
+      - _RescueNet-3389_16
+      - _RescueNet-3732_17
+      - _RescueNet-3913_18
+      - _RescueNet-4501_19
+      - _RescueNet-4760_20
+      - _RescueNet-4890_22
+      - _RescueNet-4968_23
+      - _RescueNet-5712_25
+      - _RescueNet-5761_26
+      - _RescueNet-5783_27
+      - _RescueNet-6533_29
+      - _RescueNet-6541_30
+      - _RescueNet-6568_31
+      - _RescueNet-6633_32
+      - _RescueNet-7272_34
+      - _RescueNet-7318_35
+      - _RescueNet-7492_36
+      - _RescueNet-7534_37
+      - _RescueNet-8024_40
+      - _RescueNet-8187_41
+      - _[🌐]+➠+T.me/ConfigV2RayNG_43
+      - _برای+اتصال+دائمی+جوین+شو🍦@ConfigV2RayNG_44
+      - _[🚀]+➠+ConfigV2RayNG_1_45
+      - _[🚀]+➠+ConfigV2RayNG_2_46
+      - _🇺🇸_US_美国_Beigi_MCI2_47
+      - _🇺🇸_US_美国_Mahmoodi_MCI2_48
+      - _🇺🇸_US_美国_Seyed_MCI1_49
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_1_50
+      - _🇺🇸_US_美国_Saeedeh_MCI1_51
+      - _🇺🇸_US_美国_Sedaghat_MCI2_52
+      - _🇺🇸_US_美国_Maryam_MCI1_53
+      - _🇺🇸_US_美国_Amirhosein_MCI2_54
+      - _🇪🇸_ES_西班牙_Farshad_Backup_1_55
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_2_56
+      - _🇪🇸_ES_西班牙_Farshad_Backup_2_57
+      - _🇸🇬_SG_新加坡_玉豆_11_58
+      - _🇺🇸_US_美国_Amirhosein_ARV2_59
+      - _4Jadi-5574_60
+      - _4Jadi-5596_61
+      - _4Jadi-5602_62
+      - _4Jadi-5603_63
+      - _4Jadi-5608_64
+      - _4Jadi-5626_67
+      - _4Jadi-5627_68
+      - _4Jadi-5652_69
+      - _4Jadi-5653_70
+      - _4Jadi-5654_71
+      - _4Jadi-5661_72
+      - _4Jadi-5662_73
+      - _4Jadi-5663_74
+      - _4Jadi-5664_75
+      - _4Jadi-5690_76
+      - _4Jadi-5691_77
+      - _4Jadi-5739_78
+      - _4Jadi-5740_79
+      - _4Jadi-5741_80
+      - _4Jadi-5757_81
+      - _4Jadi-5758_82
+      - _4Jadi-5880_83
+      - _4Jadi-5881_84
+      - _4Jadi-5897_85
+      - _4Jadi-5898_86
+      - _4Jadi-5901_87
+      - _4Jadi-5989_88
+      - _4Jadi-6006_89
+      - _4Jadi-6036_90
+      - _4Jadi-6038_91
+      - _4Jadi-6040_92
+      - _4Jadi-6056_93
+      - _4Jadi-6097_101
+      - _4Jadi-6098_102
+      - _4Jadi-6169_105
+      - _4Jadi-6222_106
+      - _4Jadi-6311_107
+      - _4Jadi-6318_108
+      - _4Jadi-6559_109
+      - _4Jadi-6560_110
+      - _4Jadi-6561_111
+      - _4Jadi-6562_112
+      - _4Jadi-6564_113
+      - _4Jadi-6565_114
+      - _4Jadi-6584_115
+      - _4Jadi-6585_116
+      - _4Jadi-6595_117
+      - _4Jadi-6635_118
+      - _4Jadi-6638_119
+      - _4Jadi-6639_120
+      - _4Jadi-6653_121
+      - _4Jadi-6654_122
+      - _4Jadi-6696_123
+      - _4Jadi-6704_124
+      - _4Jadi-6725_125
+      - _4Jadi-6728_126
+      - _4Jadi-6740_127
+      - _4Jadi-6742_128
+      - _4Jadi-6743_129
+      - _4Jadi-6744_130
+      - _4Jadi-6840_131
+      - _4Jadi-6841_132
+      - _4Jadi-6872_133
+      - _4Jadi-6878_134
+      - _4Jadi-6890_135
+      - _4Jadi-6898_136
+      - _🇩🇪_Tel:@HopeVPN_137
+      - _🇦🇿_Tel:@HopeVPN_138
+      - _🇺🇸_美国_<VV科技>_1_139
+      - _🇺🇸_美国_<VV科技>_2_140
+      - _🇺🇸_美国_<VV科技>_3_141
+      - _伊朗_0712024_142
+      - _伊朗_0712025_143
+      - _伊朗_0712026_144
+      - _伊朗_0712027_145
+      - _伊朗_0712028_146
+      - _德国_0712114_147
+      - _美国_07124075_148
+      - _美国_07124076_149
+      - _美国_07124077_150
+      - _美国_07124078_151
+      - _美国_07124079_152
+      - _美国_07124080_153
+      - _美国_07124081_154
+      - _美国_07124082_155
+      - _美国_07124083_156
+      - _美国_07124085_157
+      - _美国_07124087_158
+      - _美国_07124089_159
+      - _美国_07124093_160
+      - _美国_07124097_161
+      - _🇯🇵_JP_日本_阿伟_09_162
+      - _🇺🇸_US_美国_VV科技_12_1_163
+      - _🇺🇸_US_美国_Seyed_ARV1_164
+      - _🇺🇸_US_美国_Rasti_MCI1_165
+      - _🇫🇷_FR_法国_阿伟_12_166
+      - _🇺🇸_US_美国_VV科技_12_2_167
+      - _🇺🇸_US_美国_9_168
+      - _🇺🇸_US_美国_Farshad_ARV2_169
+      - _🇺🇸 US Reality 1_170
+      - _🇫🇷 FR Reality 2_171
+      - _🇩🇪 GE - CF_172
+      - _@V2rayNGn|🚩|4.25_173
+      - _REALITY|@Outline_Vpn|🇺🇸|7.23_174
+      - _REALITY|@vmessorg|🇩🇪|167.21_175
+      - _REALITY|@v2rayNG_Matsuri|🇩🇪|155.29_176
+      - _@ShadowProxy66|🇮🇷|184.71_177
+      - _REALITY|@ShadowProxy66|🇩🇪|198.81_178
+      - _REALITY|@kiava|🇩🇪|164.96_179
+      - _REALITY|@VpnProSec|🇬🇧|154.16_180
+      - _@NIM_VPN_ir|🚩|5.25_181
+      - _REALITY|@shopingv2ray|🇱🇻|178.84_182
+      - _@Proxy_PJ|🚩|4.82_183
+      - _@proxyymeliii|🇮🇷|241.39_185
+      - _@free_v2rayyy|🚩|1.81_186
+      - _REALITY|@v2ray1_ng|🇩🇪|159.81_187
+      - _@MTConfig|🇫🇮|175.2_188
+      - _@MTConfig|🚩|2.12_189
+      - _@PNG_V2rayNG|🚩|2.62_190
+      - _@v2rayNG_VPNN|🚩|1.9_191
+      - _REALITY|@v2rayNG_VPNN|🇬🇧|145.45_192
+      - _@MehradLearn|🚩|4.66_193
+      - _@MehradLearn|🚩|3.95_194
+      - _REALITY|@ConfigsHUB|🇺🇸|83.12_195
+      - _REALITY|@TheHotVPN|🇩🇪|172.56_196
+      - _@freeconfigv2|🚩|4.3_197
+      - _@freeconfigv2|🚩|1.7_198
+      - _REALITY|@freeconfigv2|🇩🇪|164.22_199
+      - _REALITY|@V2rayngninja|🇩🇪|155.38_200
+      - _REALITY|@proxystore11|🇺🇸|83.21_201
+      - _REALITY|@v2rayngvp|🇬🇧|145.22_204
+      - _REALITY|@fnet00|🇩🇪|155.55_205
+      - _🇱🇻 Latvia 01⚡⚡⚡_206
+      - _🇩🇪 Germany 04⚡⚡⚡_207
+      - _🇩🇪 Germany 05⚡⚡⚡_208
+      - _🇩🇪 Germany 08⚡⚡⚡_209
+      - _🇫🇷 France 03⚡⚡⚡_210
+      - _🇩🇪 Germany 10⚡⚡⚡_211
+      - _🇩🇪 Germany 11⚡⚡⚡_212
+      - _🇷🇺 Russia 01⚡⚡⚡_213
+      - _🇩🇪 Germany 12⚡⚡⚡_214
+      - _🇩🇪 Germany 14⚡⚡⚡_215
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_1_216"
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_2_217"
+      - _4Sarina-6727_219
+      - _4Sarina-6736_220
+      - _4Sarina-6737_221
+      - _4Sarina-6741_222
+      - _4Sarina-6769_223
+      - _4Sarina-6770_224
+      - _4Sarina-6771_225
+      - ️‍🌈_4Sarina-6775_226
+      - ️‍🌈_4Sarina-6776_227
+      - ️‍🌈_4Sarina-6777_228
+      - ️‍🌈_4Sarina-6779_229
+      - _4Sarina-6820_230
+      - _4Sarina-6828_231
+      - _4Sarina-6829_232
+      - _4Sarina-6830_233
+      - _4Sarina-6831_234
+      - _4Sarina-6875_235
+      - _4Sarina-6887_236
+      - _4Sarina-7035_237
+      - _4Sarina-7043_238
+      - _4Sarina-7044_239
+      - _4Sarina-7061_240
+      - _4Sarina-7162_241
+      - _4Sarina-7217_242
+      - _4Sarina-7254_250
+      - _4Sarina-7255_251
+      - _4Sarina-7293_252
+      - _4Sarina-7370_254
+      - _4Sarina-7470_255
+      - _4Sarina-7719_259
+      - _4Sarina-7720_260
+      - _4Sarina-7722_261
+      - _4Sarina-7724_262
+      - _4Sarina-7780_263
+      - _4Sarina-7824_265
+      - _4Sarina-7846_266
+      - _4Sarina-7892_267
+      - _4Sarina-7930_268
+      - _4Sarina-7952_269
+      - _4Sarina-7959_270
+      - _4Sarina-7960_271
+      - _4Sarina-7961_272
+      - _4Sarina-7983_273
+      - _4Sarina-7984_274
+      - _4Sarina-7995_275
+      - _4Sarina-8018_276
+      - _4Sarina-8034_277
+      - _4Sarina-8035_278
+      - _Iranian+Cypherpunks+8443_1_279
+      - _Iranian+Cypherpunks+8443_2_280
+      - _Iranian+Cypherpunks+443+worker_281
+      - _伊朗_0711009_282
+      - _伊朗_0711010_283
+      - _伊朗_0711011_284
+      - _伊朗_0711012_285
+      - _伊朗_0711014_286
+      - _伊朗_0711015_287
+      - _美国_07111606_288
+      - _美国_07111608_289
+      - _美国_07111609_290
+      - _美国_07111621_291
+      - _美国_07111622_292
+      - _RescueNet-567_293
+      - _RescueNet-960_294
+      - _RescueNet-985_2_296
+      - _RescueNet-1241_2_297
+      - _RescueNet-1274_2_298
+      - _RescueNet-1439_2_299
+      - _RescueNet-1559_2_300
+      - _RescueNet-2128_2_301
+      - _RescueNet-2951_2_302
+      - _RescueNet-3176_2_303
+      - _RescueNet-3191_2_304
+      - _RescueNet-4579_305
+      - _RescueNet-5228_307
+      - ️‍🌈_RescueNet-5265_308
+  - name: توزیع بار (هش سازگار) ♻️
+    type: load-balance
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
+    proxies:
+      - _🇺🇸𖤛⟪@LonUp_M⟫𖤛8_1
+      - _4Nika-7705_2
+      - _RescueNet-985_1_4
+      - _RescueNet-1013_5
+      - _RescueNet-1241_1_6
+      - _RescueNet-1274_1_7
+      - _RescueNet-1415_8
+      - _RescueNet-1439_1_9
+      - _RescueNet-1559_1_10
+      - _RescueNet-2128_1_12
+      - _RescueNet-2951_1_13
+      - _RescueNet-3176_1_14
+      - _RescueNet-3191_1_15
+      - _RescueNet-3389_16
+      - _RescueNet-3732_17
+      - _RescueNet-3913_18
+      - _RescueNet-4501_19
+      - _RescueNet-4760_20
+      - _RescueNet-4890_22
+      - _RescueNet-4968_23
+      - _RescueNet-5712_25
+      - _RescueNet-5761_26
+      - _RescueNet-5783_27
+      - _RescueNet-6533_29
+      - _RescueNet-6541_30
+      - _RescueNet-6568_31
+      - _RescueNet-6633_32
+      - _RescueNet-7272_34
+      - _RescueNet-7318_35
+      - _RescueNet-7492_36
+      - _RescueNet-7534_37
+      - _RescueNet-8024_40
+      - _RescueNet-8187_41
+      - _[🌐]+➠+T.me/ConfigV2RayNG_43
+      - _برای+اتصال+دائمی+جوین+شو🍦@ConfigV2RayNG_44
+      - _[🚀]+➠+ConfigV2RayNG_1_45
+      - _[🚀]+➠+ConfigV2RayNG_2_46
+      - _🇺🇸_US_美国_Beigi_MCI2_47
+      - _🇺🇸_US_美国_Mahmoodi_MCI2_48
+      - _🇺🇸_US_美国_Seyed_MCI1_49
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_1_50
+      - _🇺🇸_US_美国_Saeedeh_MCI1_51
+      - _🇺🇸_US_美国_Sedaghat_MCI2_52
+      - _🇺🇸_US_美国_Maryam_MCI1_53
+      - _🇺🇸_US_美国_Amirhosein_MCI2_54
+      - _🇪🇸_ES_西班牙_Farshad_Backup_1_55
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_2_56
+      - _🇪🇸_ES_西班牙_Farshad_Backup_2_57
+      - _🇸🇬_SG_新加坡_玉豆_11_58
+      - _🇺🇸_US_美国_Amirhosein_ARV2_59
+      - _4Jadi-5574_60
+      - _4Jadi-5596_61
+      - _4Jadi-5602_62
+      - _4Jadi-5603_63
+      - _4Jadi-5608_64
+      - _4Jadi-5626_67
+      - _4Jadi-5627_68
+      - _4Jadi-5652_69
+      - _4Jadi-5653_70
+      - _4Jadi-5654_71
+      - _4Jadi-5661_72
+      - _4Jadi-5662_73
+      - _4Jadi-5663_74
+      - _4Jadi-5664_75
+      - _4Jadi-5690_76
+      - _4Jadi-5691_77
+      - _4Jadi-5739_78
+      - _4Jadi-5740_79
+      - _4Jadi-5741_80
+      - _4Jadi-5757_81
+      - _4Jadi-5758_82
+      - _4Jadi-5880_83
+      - _4Jadi-5881_84
+      - _4Jadi-5897_85
+      - _4Jadi-5898_86
+      - _4Jadi-5901_87
+      - _4Jadi-5989_88
+      - _4Jadi-6006_89
+      - _4Jadi-6036_90
+      - _4Jadi-6038_91
+      - _4Jadi-6040_92
+      - _4Jadi-6056_93
+      - _4Jadi-6097_101
+      - _4Jadi-6098_102
+      - _4Jadi-6169_105
+      - _4Jadi-6222_106
+      - _4Jadi-6311_107
+      - _4Jadi-6318_108
+      - _4Jadi-6559_109
+      - _4Jadi-6560_110
+      - _4Jadi-6561_111
+      - _4Jadi-6562_112
+      - _4Jadi-6564_113
+      - _4Jadi-6565_114
+      - _4Jadi-6584_115
+      - _4Jadi-6585_116
+      - _4Jadi-6595_117
+      - _4Jadi-6635_118
+      - _4Jadi-6638_119
+      - _4Jadi-6639_120
+      - _4Jadi-6653_121
+      - _4Jadi-6654_122
+      - _4Jadi-6696_123
+      - _4Jadi-6704_124
+      - _4Jadi-6725_125
+      - _4Jadi-6728_126
+      - _4Jadi-6740_127
+      - _4Jadi-6742_128
+      - _4Jadi-6743_129
+      - _4Jadi-6744_130
+      - _4Jadi-6840_131
+      - _4Jadi-6841_132
+      - _4Jadi-6872_133
+      - _4Jadi-6878_134
+      - _4Jadi-6890_135
+      - _4Jadi-6898_136
+      - _🇩🇪_Tel:@HopeVPN_137
+      - _🇦🇿_Tel:@HopeVPN_138
+      - _🇺🇸_美国_<VV科技>_1_139
+      - _🇺🇸_美国_<VV科技>_2_140
+      - _🇺🇸_美国_<VV科技>_3_141
+      - _伊朗_0712024_142
+      - _伊朗_0712025_143
+      - _伊朗_0712026_144
+      - _伊朗_0712027_145
+      - _伊朗_0712028_146
+      - _德国_0712114_147
+      - _美国_07124075_148
+      - _美国_07124076_149
+      - _美国_07124077_150
+      - _美国_07124078_151
+      - _美国_07124079_152
+      - _美国_07124080_153
+      - _美国_07124081_154
+      - _美国_07124082_155
+      - _美国_07124083_156
+      - _美国_07124085_157
+      - _美国_07124087_158
+      - _美国_07124089_159
+      - _美国_07124093_160
+      - _美国_07124097_161
+      - _🇯🇵_JP_日本_阿伟_09_162
+      - _🇺🇸_US_美国_VV科技_12_1_163
+      - _🇺🇸_US_美国_Seyed_ARV1_164
+      - _🇺🇸_US_美国_Rasti_MCI1_165
+      - _🇫🇷_FR_法国_阿伟_12_166
+      - _🇺🇸_US_美国_VV科技_12_2_167
+      - _🇺🇸_US_美国_9_168
+      - _🇺🇸_US_美国_Farshad_ARV2_169
+      - _🇺🇸 US Reality 1_170
+      - _🇫🇷 FR Reality 2_171
+      - _🇩🇪 GE - CF_172
+      - _@V2rayNGn|🚩|4.25_173
+      - _REALITY|@Outline_Vpn|🇺🇸|7.23_174
+      - _REALITY|@vmessorg|🇩🇪|167.21_175
+      - _REALITY|@v2rayNG_Matsuri|🇩🇪|155.29_176
+      - _@ShadowProxy66|🇮🇷|184.71_177
+      - _REALITY|@ShadowProxy66|🇩🇪|198.81_178
+      - _REALITY|@kiava|🇩🇪|164.96_179
+      - _REALITY|@VpnProSec|🇬🇧|154.16_180
+      - _@NIM_VPN_ir|🚩|5.25_181
+      - _REALITY|@shopingv2ray|🇱🇻|178.84_182
+      - _@Proxy_PJ|🚩|4.82_183
+      - _@proxyymeliii|🇮🇷|241.39_185
+      - _@free_v2rayyy|🚩|1.81_186
+      - _REALITY|@v2ray1_ng|🇩🇪|159.81_187
+      - _@MTConfig|🇫🇮|175.2_188
+      - _@MTConfig|🚩|2.12_189
+      - _@PNG_V2rayNG|🚩|2.62_190
+      - _@v2rayNG_VPNN|🚩|1.9_191
+      - _REALITY|@v2rayNG_VPNN|🇬🇧|145.45_192
+      - _@MehradLearn|🚩|4.66_193
+      - _@MehradLearn|🚩|3.95_194
+      - _REALITY|@ConfigsHUB|🇺🇸|83.12_195
+      - _REALITY|@TheHotVPN|🇩🇪|172.56_196
+      - _@freeconfigv2|🚩|4.3_197
+      - _@freeconfigv2|🚩|1.7_198
+      - _REALITY|@freeconfigv2|🇩🇪|164.22_199
+      - _REALITY|@V2rayngninja|🇩🇪|155.38_200
+      - _REALITY|@proxystore11|🇺🇸|83.21_201
+      - _REALITY|@v2rayngvp|🇬🇧|145.22_204
+      - _REALITY|@fnet00|🇩🇪|155.55_205
+      - _🇱🇻 Latvia 01⚡⚡⚡_206
+      - _🇩🇪 Germany 04⚡⚡⚡_207
+      - _🇩🇪 Germany 05⚡⚡⚡_208
+      - _🇩🇪 Germany 08⚡⚡⚡_209
+      - _🇫🇷 France 03⚡⚡⚡_210
+      - _🇩🇪 Germany 10⚡⚡⚡_211
+      - _🇩🇪 Germany 11⚡⚡⚡_212
+      - _🇷🇺 Russia 01⚡⚡⚡_213
+      - _🇩🇪 Germany 12⚡⚡⚡_214
+      - _🇩🇪 Germany 14⚡⚡⚡_215
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_1_216"
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_2_217"
+      - _4Sarina-6727_219
+      - _4Sarina-6736_220
+      - _4Sarina-6737_221
+      - _4Sarina-6741_222
+      - _4Sarina-6769_223
+      - _4Sarina-6770_224
+      - _4Sarina-6771_225
+      - ️‍🌈_4Sarina-6775_226
+      - ️‍🌈_4Sarina-6776_227
+      - ️‍🌈_4Sarina-6777_228
+      - ️‍🌈_4Sarina-6779_229
+      - _4Sarina-6820_230
+      - _4Sarina-6828_231
+      - _4Sarina-6829_232
+      - _4Sarina-6830_233
+      - _4Sarina-6831_234
+      - _4Sarina-6875_235
+      - _4Sarina-6887_236
+      - _4Sarina-7035_237
+      - _4Sarina-7043_238
+      - _4Sarina-7044_239
+      - _4Sarina-7061_240
+      - _4Sarina-7162_241
+      - _4Sarina-7217_242
+      - _4Sarina-7254_250
+      - _4Sarina-7255_251
+      - _4Sarina-7293_252
+      - _4Sarina-7370_254
+      - _4Sarina-7470_255
+      - _4Sarina-7719_259
+      - _4Sarina-7720_260
+      - _4Sarina-7722_261
+      - _4Sarina-7724_262
+      - _4Sarina-7780_263
+      - _4Sarina-7824_265
+      - _4Sarina-7846_266
+      - _4Sarina-7892_267
+      - _4Sarina-7930_268
+      - _4Sarina-7952_269
+      - _4Sarina-7959_270
+      - _4Sarina-7960_271
+      - _4Sarina-7961_272
+      - _4Sarina-7983_273
+      - _4Sarina-7984_274
+      - _4Sarina-7995_275
+      - _4Sarina-8018_276
+      - _4Sarina-8034_277
+      - _4Sarina-8035_278
+      - _Iranian+Cypherpunks+8443_1_279
+      - _Iranian+Cypherpunks+8443_2_280
+      - _Iranian+Cypherpunks+443+worker_281
+      - _伊朗_0711009_282
+      - _伊朗_0711010_283
+      - _伊朗_0711011_284
+      - _伊朗_0711012_285
+      - _伊朗_0711014_286
+      - _伊朗_0711015_287
+      - _美国_07111606_288
+      - _美国_07111608_289
+      - _美国_07111609_290
+      - _美国_07111621_291
+      - _美国_07111622_292
+      - _RescueNet-567_293
+      - _RescueNet-960_294
+      - _RescueNet-985_2_296
+      - _RescueNet-1241_2_297
+      - _RescueNet-1274_2_298
+      - _RescueNet-1439_2_299
+      - _RescueNet-1559_2_300
+      - _RescueNet-2128_2_301
+      - _RescueNet-2951_2_302
+      - _RescueNet-3176_2_303
+      - _RescueNet-3191_2_304
+      - _RescueNet-4579_305
+      - _RescueNet-5228_307
+      - ️‍🌈_RescueNet-5265_308
+    strategy: consistent-hashing
+  - name: توزیع بار (یکنواخت) ⏳
+    type: load-balance
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
+    proxies:
+      - _🇺🇸𖤛⟪@LonUp_M⟫𖤛8_1
+      - _4Nika-7705_2
+      - _RescueNet-985_1_4
+      - _RescueNet-1013_5
+      - _RescueNet-1241_1_6
+      - _RescueNet-1274_1_7
+      - _RescueNet-1415_8
+      - _RescueNet-1439_1_9
+      - _RescueNet-1559_1_10
+      - _RescueNet-2128_1_12
+      - _RescueNet-2951_1_13
+      - _RescueNet-3176_1_14
+      - _RescueNet-3191_1_15
+      - _RescueNet-3389_16
+      - _RescueNet-3732_17
+      - _RescueNet-3913_18
+      - _RescueNet-4501_19
+      - _RescueNet-4760_20
+      - _RescueNet-4890_22
+      - _RescueNet-4968_23
+      - _RescueNet-5712_25
+      - _RescueNet-5761_26
+      - _RescueNet-5783_27
+      - _RescueNet-6533_29
+      - _RescueNet-6541_30
+      - _RescueNet-6568_31
+      - _RescueNet-6633_32
+      - _RescueNet-7272_34
+      - _RescueNet-7318_35
+      - _RescueNet-7492_36
+      - _RescueNet-7534_37
+      - _RescueNet-8024_40
+      - _RescueNet-8187_41
+      - _[🌐]+➠+T.me/ConfigV2RayNG_43
+      - _برای+اتصال+دائمی+جوین+شو🍦@ConfigV2RayNG_44
+      - _[🚀]+➠+ConfigV2RayNG_1_45
+      - _[🚀]+➠+ConfigV2RayNG_2_46
+      - _🇺🇸_US_美国_Beigi_MCI2_47
+      - _🇺🇸_US_美国_Mahmoodi_MCI2_48
+      - _🇺🇸_US_美国_Seyed_MCI1_49
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_1_50
+      - _🇺🇸_US_美国_Saeedeh_MCI1_51
+      - _🇺🇸_US_美国_Sedaghat_MCI2_52
+      - _🇺🇸_US_美国_Maryam_MCI1_53
+      - _🇺🇸_US_美国_Amirhosein_MCI2_54
+      - _🇪🇸_ES_西班牙_Farshad_Backup_1_55
+      - _🇪🇸_ES_西班牙_Saeedeh_Backup_2_56
+      - _🇪🇸_ES_西班牙_Farshad_Backup_2_57
+      - _🇸🇬_SG_新加坡_玉豆_11_58
+      - _🇺🇸_US_美国_Amirhosein_ARV2_59
+      - _4Jadi-5574_60
+      - _4Jadi-5596_61
+      - _4Jadi-5602_62
+      - _4Jadi-5603_63
+      - _4Jadi-5608_64
+      - _4Jadi-5626_67
+      - _4Jadi-5627_68
+      - _4Jadi-5652_69
+      - _4Jadi-5653_70
+      - _4Jadi-5654_71
+      - _4Jadi-5661_72
+      - _4Jadi-5662_73
+      - _4Jadi-5663_74
+      - _4Jadi-5664_75
+      - _4Jadi-5690_76
+      - _4Jadi-5691_77
+      - _4Jadi-5739_78
+      - _4Jadi-5740_79
+      - _4Jadi-5741_80
+      - _4Jadi-5757_81
+      - _4Jadi-5758_82
+      - _4Jadi-5880_83
+      - _4Jadi-5881_84
+      - _4Jadi-5897_85
+      - _4Jadi-5898_86
+      - _4Jadi-5901_87
+      - _4Jadi-5989_88
+      - _4Jadi-6006_89
+      - _4Jadi-6036_90
+      - _4Jadi-6038_91
+      - _4Jadi-6040_92
+      - _4Jadi-6056_93
+      - _4Jadi-6097_101
+      - _4Jadi-6098_102
+      - _4Jadi-6169_105
+      - _4Jadi-6222_106
+      - _4Jadi-6311_107
+      - _4Jadi-6318_108
+      - _4Jadi-6559_109
+      - _4Jadi-6560_110
+      - _4Jadi-6561_111
+      - _4Jadi-6562_112
+      - _4Jadi-6564_113
+      - _4Jadi-6565_114
+      - _4Jadi-6584_115
+      - _4Jadi-6585_116
+      - _4Jadi-6595_117
+      - _4Jadi-6635_118
+      - _4Jadi-6638_119
+      - _4Jadi-6639_120
+      - _4Jadi-6653_121
+      - _4Jadi-6654_122
+      - _4Jadi-6696_123
+      - _4Jadi-6704_124
+      - _4Jadi-6725_125
+      - _4Jadi-6728_126
+      - _4Jadi-6740_127
+      - _4Jadi-6742_128
+      - _4Jadi-6743_129
+      - _4Jadi-6744_130
+      - _4Jadi-6840_131
+      - _4Jadi-6841_132
+      - _4Jadi-6872_133
+      - _4Jadi-6878_134
+      - _4Jadi-6890_135
+      - _4Jadi-6898_136
+      - _🇩🇪_Tel:@HopeVPN_137
+      - _🇦🇿_Tel:@HopeVPN_138
+      - _🇺🇸_美国_<VV科技>_1_139
+      - _🇺🇸_美国_<VV科技>_2_140
+      - _🇺🇸_美国_<VV科技>_3_141
+      - _伊朗_0712024_142
+      - _伊朗_0712025_143
+      - _伊朗_0712026_144
+      - _伊朗_0712027_145
+      - _伊朗_0712028_146
+      - _德国_0712114_147
+      - _美国_07124075_148
+      - _美国_07124076_149
+      - _美国_07124077_150
+      - _美国_07124078_151
+      - _美国_07124079_152
+      - _美国_07124080_153
+      - _美国_07124081_154
+      - _美国_07124082_155
+      - _美国_07124083_156
+      - _美国_07124085_157
+      - _美国_07124087_158
+      - _美国_07124089_159
+      - _美国_07124093_160
+      - _美国_07124097_161
+      - _🇯🇵_JP_日本_阿伟_09_162
+      - _🇺🇸_US_美国_VV科技_12_1_163
+      - _🇺🇸_US_美国_Seyed_ARV1_164
+      - _🇺🇸_US_美国_Rasti_MCI1_165
+      - _🇫🇷_FR_法国_阿伟_12_166
+      - _🇺🇸_US_美国_VV科技_12_2_167
+      - _🇺🇸_US_美国_9_168
+      - _🇺🇸_US_美国_Farshad_ARV2_169
+      - _🇺🇸 US Reality 1_170
+      - _🇫🇷 FR Reality 2_171
+      - _🇩🇪 GE - CF_172
+      - _@V2rayNGn|🚩|4.25_173
+      - _REALITY|@Outline_Vpn|🇺🇸|7.23_174
+      - _REALITY|@vmessorg|🇩🇪|167.21_175
+      - _REALITY|@v2rayNG_Matsuri|🇩🇪|155.29_176
+      - _@ShadowProxy66|🇮🇷|184.71_177
+      - _REALITY|@ShadowProxy66|🇩🇪|198.81_178
+      - _REALITY|@kiava|🇩🇪|164.96_179
+      - _REALITY|@VpnProSec|🇬🇧|154.16_180
+      - _@NIM_VPN_ir|🚩|5.25_181
+      - _REALITY|@shopingv2ray|🇱🇻|178.84_182
+      - _@Proxy_PJ|🚩|4.82_183
+      - _@proxyymeliii|🇮🇷|241.39_185
+      - _@free_v2rayyy|🚩|1.81_186
+      - _REALITY|@v2ray1_ng|🇩🇪|159.81_187
+      - _@MTConfig|🇫🇮|175.2_188
+      - _@MTConfig|🚩|2.12_189
+      - _@PNG_V2rayNG|🚩|2.62_190
+      - _@v2rayNG_VPNN|🚩|1.9_191
+      - _REALITY|@v2rayNG_VPNN|🇬🇧|145.45_192
+      - _@MehradLearn|🚩|4.66_193
+      - _@MehradLearn|🚩|3.95_194
+      - _REALITY|@ConfigsHUB|🇺🇸|83.12_195
+      - _REALITY|@TheHotVPN|🇩🇪|172.56_196
+      - _@freeconfigv2|🚩|4.3_197
+      - _@freeconfigv2|🚩|1.7_198
+      - _REALITY|@freeconfigv2|🇩🇪|164.22_199
+      - _REALITY|@V2rayngninja|🇩🇪|155.38_200
+      - _REALITY|@proxystore11|🇺🇸|83.21_201
+      - _REALITY|@v2rayngvp|🇬🇧|145.22_204
+      - _REALITY|@fnet00|🇩🇪|155.55_205
+      - _🇱🇻 Latvia 01⚡⚡⚡_206
+      - _🇩🇪 Germany 04⚡⚡⚡_207
+      - _🇩🇪 Germany 05⚡⚡⚡_208
+      - _🇩🇪 Germany 08⚡⚡⚡_209
+      - _🇫🇷 France 03⚡⚡⚡_210
+      - _🇩🇪 Germany 10⚡⚡⚡_211
+      - _🇩🇪 Germany 11⚡⚡⚡_212
+      - _🇷🇺 Russia 01⚡⚡⚡_213
+      - _🇩🇪 Germany 12⚡⚡⚡_214
+      - _🇩🇪 Germany 14⚡⚡⚡_215
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_1_216"
+      - "_💻 Channel 🆔 : @AlienVPN402 👽\r_2_217"
+      - _4Sarina-6727_219
+      - _4Sarina-6736_220
+      - _4Sarina-6737_221
+      - _4Sarina-6741_222
+      - _4Sarina-6769_223
+      - _4Sarina-6770_224
+      - _4Sarina-6771_225
+      - ️‍🌈_4Sarina-6775_226
+      - ️‍🌈_4Sarina-6776_227
+      - ️‍🌈_4Sarina-6777_228
+      - ️‍🌈_4Sarina-6779_229
+      - _4Sarina-6820_230
+      - _4Sarina-6828_231
+      - _4Sarina-6829_232
+      - _4Sarina-6830_233
+      - _4Sarina-6831_234
+      - _4Sarina-6875_235
+      - _4Sarina-6887_236
+      - _4Sarina-7035_237
+      - _4Sarina-7043_238
+      - _4Sarina-7044_239
+      - _4Sarina-7061_240
+      - _4Sarina-7162_241
+      - _4Sarina-7217_242
+      - _4Sarina-7254_250
+      - _4Sarina-7255_251
+      - _4Sarina-7293_252
+      - _4Sarina-7370_254
+      - _4Sarina-7470_255
+      - _4Sarina-7719_259
+      - _4Sarina-7720_260
+      - _4Sarina-7722_261
+      - _4Sarina-7724_262
+      - _4Sarina-7780_263
+      - _4Sarina-7824_265
+      - _4Sarina-7846_266
+      - _4Sarina-7892_267
+      - _4Sarina-7930_268
+      - _4Sarina-7952_269
+      - _4Sarina-7959_270
+      - _4Sarina-7960_271
+      - _4Sarina-7961_272
+      - _4Sarina-7983_273
+      - _4Sarina-7984_274
+      - _4Sarina-7995_275
+      - _4Sarina-8018_276
+      - _4Sarina-8034_277
+      - _4Sarina-8035_278
+      - _Iranian+Cypherpunks+8443_1_279
+      - _Iranian+Cypherpunks+8443_2_280
+      - _Iranian+Cypherpunks+443+worker_281
+      - _伊朗_0711009_282
+      - _伊朗_0711010_283
+      - _伊朗_0711011_284
+      - _伊朗_0711012_285
+      - _伊朗_0711014_286
+      - _伊朗_0711015_287
+      - _美国_07111606_288
+      - _美国_07111608_289
+      - _美国_07111609_290
+      - _美国_07111621_291
+      - _美国_07111622_292
+      - _RescueNet-567_293
+      - _RescueNet-960_294
+      - _RescueNet-985_2_296
+      - _RescueNet-1241_2_297
+      - _RescueNet-1274_2_298
+      - _RescueNet-1439_2_299
+      - _RescueNet-1559_2_300
+      - _RescueNet-2128_2_301
+      - _RescueNet-2951_2_302
+      - _RescueNet-3176_2_303
+      - _RescueNet-3191_2_304
+      - _RescueNet-4579_305
+      - _RescueNet-5228_307
+      - ️‍🌈_RescueNet-5265_308
+    strategy: round-robin
+  - name: 🇮🇷 سایتای ایرانی
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - Slovakia-TG-SMT
-      - Denmark-TG-SMT
-      - Portugal-TG-SMT
-      - Worker-III-SMT
-      - Patr-SMT
-      - Replit-USA-SMT
-      - Okteto-SMT
-      - GAFN-Dusseldorf-SMT
-      - GAFN-Kansas-SMT
-      - GAFN-Amsterdam-SMT
-      - GAFN-Lille-SMT
-      - GAFN-LosAngeles-SMT
-      - Worker-SMT
-      - Worker-II-SMT
-      - Hungry-TG-SMT
-      - Poland-TG-SMT
-      - Brazil-TG-SMT
-      - Russia-TG-MTN
-      - Moldova-TG-MTN
-      - Iceland-TG-MTN
-      - Worker-III-MTN
-      - Patr-MTN
-      - Replit-USA-MTN
-      - Okteto-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG-MTN
-      - USA-SF-TG-MTN
-      - Canada-TG-MTN
-      - Chile-TG-MTN
-      - Israel-Loc2-TG-MTN
-      - Romani-TG-MTN
-      - Ukraine-TG-MTN
-      - Sweden-TG-MTN
-      - Spain-TG-MTN
-      - Norwey-TG-MTN
-      - Russia-TG-MCI
-      - Ukraine-TG-MCI
-      - Netherlands-TG-MCI
-      - Worker-III-MCI
-      - Patr-MCI
-      - Replit-USA-MCI
-      - Okteto-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG-MCI
-      - Ireland-TG-MCI
-      - Moldova-TG-MCI
-      - Iceland-TG-MCI
-      - Finland-TG-MCI
-      - USA-SF-TG-MCI
-      - Canada-TG-MCI
-      - Romani-TG-MCI
-  - name: 📲 电报信息
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 📶 انتخاب نوع اتصال
+  - name: 🏴‍☠️ سایتای تحریمی
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - Slovakia-TG-SMT
-      - Denmark-TG-SMT
-      - Portugal-TG-SMT
-      - Worker-III-SMT
-      - Patr-SMT
-      - Replit-USA-SMT
-      - Okteto-SMT
-      - GAFN-Dusseldorf-SMT
-      - GAFN-Kansas-SMT
-      - GAFN-Amsterdam-SMT
-      - GAFN-Lille-SMT
-      - GAFN-LosAngeles-SMT
-      - Worker-SMT
-      - Worker-II-SMT
-      - Hungry-TG-SMT
-      - Poland-TG-SMT
-      - Brazil-TG-SMT
-      - Russia-TG-MTN
-      - Moldova-TG-MTN
-      - Iceland-TG-MTN
-      - Worker-III-MTN
-      - Patr-MTN
-      - Replit-USA-MTN
-      - Okteto-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG-MTN
-      - USA-SF-TG-MTN
-      - Canada-TG-MTN
-      - Chile-TG-MTN
-      - Israel-Loc2-TG-MTN
-      - Romani-TG-MTN
-      - Ukraine-TG-MTN
-      - Sweden-TG-MTN
-      - Spain-TG-MTN
-      - Norwey-TG-MTN
-      - Russia-TG-MCI
-      - Ukraine-TG-MCI
-      - Netherlands-TG-MCI
-      - Worker-III-MCI
-      - Patr-MCI
-      - Replit-USA-MCI
-      - Okteto-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG-MCI
-      - Ireland-TG-MCI
-      - Moldova-TG-MCI
-      - Iceland-TG-MCI
-      - Finland-TG-MCI
-      - USA-SF-TG-MCI
-      - Canada-TG-MCI
-      - Romani-TG-MCI
-  - name: Ⓜ️ 微软服务
+      - 🔀 نوع انتخاب پروکسی
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+  - name: 🆎 تبلیغات
     type: select
     proxies:
-      - 🎯 全球直连
-      - 🚀 节点选择
-      - Slovakia-TG-SMT
-      - Denmark-TG-SMT
-      - Portugal-TG-SMT
-      - Worker-III-SMT
-      - Patr-SMT
-      - Replit-USA-SMT
-      - Okteto-SMT
-      - GAFN-Dusseldorf-SMT
-      - GAFN-Kansas-SMT
-      - GAFN-Amsterdam-SMT
-      - GAFN-Lille-SMT
-      - GAFN-LosAngeles-SMT
-      - Worker-SMT
-      - Worker-II-SMT
-      - Hungry-TG-SMT
-      - Poland-TG-SMT
-      - Brazil-TG-SMT
-      - Russia-TG-MTN
-      - Moldova-TG-MTN
-      - Iceland-TG-MTN
-      - Worker-III-MTN
-      - Patr-MTN
-      - Replit-USA-MTN
-      - Okteto-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG-MTN
-      - USA-SF-TG-MTN
-      - Canada-TG-MTN
-      - Chile-TG-MTN
-      - Israel-Loc2-TG-MTN
-      - Romani-TG-MTN
-      - Ukraine-TG-MTN
-      - Sweden-TG-MTN
-      - Spain-TG-MTN
-      - Norwey-TG-MTN
-      - Russia-TG-MCI
-      - Ukraine-TG-MCI
-      - Netherlands-TG-MCI
-      - Worker-III-MCI
-      - Patr-MCI
-      - Replit-USA-MCI
-      - Okteto-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG-MCI
-      - Ireland-TG-MCI
-      - Moldova-TG-MCI
-      - Iceland-TG-MCI
-      - Finland-TG-MCI
-      - USA-SF-TG-MCI
-      - Canada-TG-MCI
-      - Romani-TG-MCI
-  - name: 🍎 苹果服务
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+  - name: 🍃 تصفیه برنامه
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - Slovakia-TG-SMT
-      - Denmark-TG-SMT
-      - Portugal-TG-SMT
-      - Worker-III-SMT
-      - Patr-SMT
-      - Replit-USA-SMT
-      - Okteto-SMT
-      - GAFN-Dusseldorf-SMT
-      - GAFN-Kansas-SMT
-      - GAFN-Amsterdam-SMT
-      - GAFN-Lille-SMT
-      - GAFN-LosAngeles-SMT
-      - Worker-SMT
-      - Worker-II-SMT
-      - Hungry-TG-SMT
-      - Poland-TG-SMT
-      - Brazil-TG-SMT
-      - Russia-TG-MTN
-      - Moldova-TG-MTN
-      - Iceland-TG-MTN
-      - Worker-III-MTN
-      - Patr-MTN
-      - Replit-USA-MTN
-      - Okteto-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG-MTN
-      - USA-SF-TG-MTN
-      - Canada-TG-MTN
-      - Chile-TG-MTN
-      - Israel-Loc2-TG-MTN
-      - Romani-TG-MTN
-      - Ukraine-TG-MTN
-      - Sweden-TG-MTN
-      - Spain-TG-MTN
-      - Norwey-TG-MTN
-      - Russia-TG-MCI
-      - Ukraine-TG-MCI
-      - Netherlands-TG-MCI
-      - Worker-III-MCI
-      - Patr-MCI
-      - Replit-USA-MCI
-      - Okteto-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG-MCI
-      - Ireland-TG-MCI
-      - Moldova-TG-MCI
-      - Iceland-TG-MCI
-      - Finland-TG-MCI
-      - USA-SF-TG-MCI
-      - Canada-TG-MCI
-      - Romani-TG-MCI
-  - name: 🎯 全球直连
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+  - name: 🛑 رهگیری جهانی
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 📶 انتخاب نوع اتصال
+  - name: 🛡️ بدون فیلترشکن
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
-  - name: 🛑 全球拦截
+  - name: ⛔ قطع اینترنت
     type: select
     proxies:
       - REJECT
-      - DIRECT
-  - name: 🍃 应用净化
+  - name: 🚫 اجازه ندادن
     type: select
     proxies:
       - REJECT
-      - DIRECT
-  - name: 🐟 漏网之鱼
+  - name: 🔐 فقط سایتای فیلتر شده
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - Slovakia-TG-SMT
-      - Denmark-TG-SMT
-      - Portugal-TG-SMT
-      - Worker-III-SMT
-      - Patr-SMT
-      - Replit-USA-SMT
-      - Okteto-SMT
-      - GAFN-Dusseldorf-SMT
-      - GAFN-Kansas-SMT
-      - GAFN-Amsterdam-SMT
-      - GAFN-Lille-SMT
-      - GAFN-LosAngeles-SMT
-      - Worker-SMT
-      - Worker-II-SMT
-      - Hungry-TG-SMT
-      - Poland-TG-SMT
-      - Brazil-TG-SMT
-      - Russia-TG-MTN
-      - Moldova-TG-MTN
-      - Iceland-TG-MTN
-      - Worker-III-MTN
-      - Patr-MTN
-      - Replit-USA-MTN
-      - Okteto-MTN
-      - GAFN-Dusseldorf-MTN
-      - GAFN-Kansas-MTN
-      - GAFN-Amsterdam-MTN
-      - GAFN-Lille-MTN
-      - GAFN-LosAngeles-MTN
-      - Worker-MTN
-      - Worker-II-MTN
-      - Finland-TG-MTN
-      - USA-SF-TG-MTN
-      - Canada-TG-MTN
-      - Chile-TG-MTN
-      - Israel-Loc2-TG-MTN
-      - Romani-TG-MTN
-      - Ukraine-TG-MTN
-      - Sweden-TG-MTN
-      - Spain-TG-MTN
-      - Norwey-TG-MTN
-      - Russia-TG-MCI
-      - Ukraine-TG-MCI
-      - Netherlands-TG-MCI
-      - Worker-III-MCI
-      - Patr-MCI
-      - Replit-USA-MCI
-      - Okteto-MCI
-      - GAFN-Dusseldorf-MCI
-      - GAFN-Kansas-MCI
-      - GAFN-Amsterdam-MCI
-      - GAFN-Lille-MCI
-      - GAFN-LosAngeles-MCI
-      - Worker-MCI
-      - Worker-II-MCI
-      - Israel-Loc1-TG-MCI
-      - Ireland-TG-MCI
-      - Moldova-TG-MCI
-      - Iceland-TG-MCI
-      - Finland-TG-MCI
-      - USA-SF-TG-MCI
-      - Canada-TG-MCI
-      - Romani-TG-MCI
+      - DIRECT
+  - name: 🌐 همه سایتا
+    type: select
+    proxies:
+      - 🔀 نوع انتخاب پروکسی
 
-rule:
+rule-providers:
+  blocked:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/blocked-sites.yml
+    interval: 432000
+    path: ./ruleset/blocked.yaml
+  category_porn:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/category-porn.yaml
+    interval: 432000
+    path: ./ruleset/category_porn.yaml
+  facebook:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/facebook.yaml
+    interval: 432000
+    path: ./ruleset/facebook.yaml
+  youtube:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/youtube.yaml
+    interval: 432000
+    path: ./ruleset/youtube.yaml
+  instagram:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/instagram.yaml
+    interval: 432000
+    path: ./ruleset/instagram.yaml
+  spotify:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/spotify.yaml
+    interval: 432000
+    path: ./ruleset/spotify.yaml
+  twitter:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/twitter.yaml
+    interval: 432000
+    path: ./ruleset/twitter.yaml
+  telegram:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/telegram.yaml
+    interval: 432000
+    path: ./ruleset/telegram.yaml
+  openai:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/openai.yaml
+    interval: 432000
+    path: ./ruleset/openai.yaml
+  whatsapp:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/whatsapp.yaml
+    interval: 432000
+    path: ./ruleset/whatsapp.yaml
+  tiktok:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/tiktok.yaml
+    interval: 432000
+    path: ./ruleset/tiktok.yaml
+  twitch:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/twitch.yaml
+    interval: 432000
+    path: ./ruleset/twitch.yaml
+  local_ips:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/local-ips.yaml
+    interval: 432000
+    path: ./ruleset/local_ips.yaml
+  private:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/private.yaml
+    interval: 432000
+    path: ./ruleset/private.yaml
+  category_ir:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/category-ir.yaml
+    interval: 432000
+    path: ./ruleset/category_ir.yaml
+  iran:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/iran.yaml
+    interval: 432000
+    path: ./ruleset/iran.yaml
   iran_other:
     type: http
-    format: text
     behavior: domain
-    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_other.txt"
-    path: ./ruleset/iran_other.txt
+    url: https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_other.yaml
     interval: 432000
+    path: ./ruleset/iran_other.yaml
+  steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    interval: 432000
+    path: ./ruleset/steam.yaml
+  Purification_ip:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app%20ip.yaml
+    interval: 432000
+    path: ./ruleset/Purificationip.yaml
+  ads_ip:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/ads%20ip.yaml
+    interval: 432000
+    path: ./ruleset/adsip.yaml
+  Purification:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app.yaml
+    interval: 432000
+    path: ./ruleset/Purification.yaml
+  category_public_tracker:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/category-public-tracker.yaml
+    interval: 432000
+    path: ./ruleset/category_public_tracker.yaml
+  Global:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
+    interval: 432000
+    path: ./ruleset/Global.yaml
+  category_ads_all:
+    type: http
+    behavior: domain
+    url: https://github.com/Kr328/V2rayDomains2Clash/blob/generated/category-ads-all.yaml
+    interval: 432000
+    path: ./ruleset/category_ads_all.yaml
   iran_ads:
     type: http
-    format: text
     behavior: domain
-    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.txt"
-    path: ./ruleset/iran_ads.txt
+    url: https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml
     interval: 432000
-  - RULE-SET,iran_ads,REJECT
-  - DOMAIN-SUFFIX,ir,DIRECT
-  - RULE-SET,iran_other,DIRECT
-  - GEOIP,IR,DIRECT
+    path: ./ruleset/iran_ads.yaml
+  add:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/add.yaml
+    interval: 432000
+    path: ./ruleset/add.yaml
+  MoreAd:
+    type: http
+    behavior: domain
+    url: https://howdy.id/download/rules/clash.txt
+    interval: 86400
+    path: ./providers/rule-provider_clash.yaml
+  AntiAd:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    interval: 432000
+    path: ./ruleset/AntiAd.yaml
+  tahrim:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/tahrim.yaml
+    interval: 432000
+    path: ./ruleset/tahrim.yaml
+rules:
+  - RULE-SET,blocked,🔀 نوع انتخاب پروکسی
+  - RULE-SET,local_ips,🛡️ بدون فیلترشکن
+  - RULE-SET,private,🛡️ بدون فیلترشکن
+  - GEOIP,IR,🇮🇷 سایتای ایرانی
+  - RULE-SET,category_ir,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran_other,🇮🇷 سایتای ایرانی
+  - RULE-SET,steam,🎮 استیم
+  - RULE-SET,Purification_ip,🍃 تصفیه برنامه,no-resolve
+  - RULE-SET,Purification,🍃 تصفیه برنامه
+  - RULE-SET,category_public_tracker,🛑 رهگیری جهانی
+  - RULE-SET,Global,🛑 رهگیری جهانی
+  - RULE-SET,category_ads_all,🆎 تبلیغات
+  - RULE-SET,iran_ads,🆎 تبلیغات
+  - RULE-SET,ads_ip,🆎 تبلیغات,no-resolve
+  - RULE-SET,add,🆎 تبلیغات
+  - RULE-SET,MoreAd,🆎 تبلیغات
+  - RULE-SET,AntiAd,🆎 تبلیغات
+  - RULE-SET,tahrim,🏴‍☠️ سایتای تحریمی
+  - RULE-SET,category_porn,🔀 نوع انتخاب پروکسی
+  - RULE-SET,facebook,🔀 نوع انتخاب پروکسی
+  - RULE-SET,youtube,🔀 نوع انتخاب پروکسی
+  - RULE-SET,instagram,🔀 نوع انتخاب پروکسی
+  - RULE-SET,spotify,🔀 نوع انتخاب پروکسی
+  - RULE-SET,twitter,🔀 نوع انتخاب پروکسی
+  - RULE-SET,telegram,🔀 نوع انتخاب پروکسی
+  - RULE-SET,openai,🔀 نوع انتخاب پروکسی
+  - RULE-SET,whatsapp,🔀 نوع انتخاب پروکسی
+  - RULE-SET,tiktok,🔀 نوع انتخاب پروکسی
+  - RULE-SET,twitch,🔀 نوع انتخاب پروکسی
+  - MATCH,📶 انتخاب نوع اتصال
