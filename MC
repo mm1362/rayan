@@ -10,6 +10,9 @@ vless://aae0527c-5ad5-4a40-b966-fc89e9030083@mci.rayanbala.ir:443/?encryption=no
 vless://8472537e-da6f-4c86-89e6-6305c5baa557@mci.rayanbala.ir:443/?encryption=none&type=ws&host=worker.medicaldream.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.medicaldream.ir#Worker-III-MD-MCI
 
 
+vless://d9cd6fbc-a295-4ac9-9383-4f1561b0fbb2@mci.rayanbala.ir:443/?encryption=none&type=ws&host=worker4.rayan1.workers.dev&path=%2F%3Fed%3D2048&security=tls&sni=worker4.rayan1.workers.dev#Worker-IV-MCI
+
+
 vmess://eyJhZGQiOiJtY2kucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiODAtYjEyZjBkYmMzYTg5NGJhNGFmYTk0NDg2YTEzODczZWQub25wYXRyLmNsb3VkIiwiaWQiOiJhMmZiYjFkZi00ZDRjLTQ4MmMtYmI1OC0wMjZjZDdlZWY2YjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJQYXRyLU1DSSIsInNjeSI6Im5vbmUiLCJzbmkiOiI4MC1iMTJmMGRiYzNhODk0YmE0YWZhOTQ0ODZhMTM4NzNlZC5vbnBhdHIuY2xvdWQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 
 
