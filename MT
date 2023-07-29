@@ -69,3 +69,4 @@ https://mms.1362:rayanbala.ir@no.secureconnect.me:993/#Norwey-TG-MTN
 
 
 
+socks5://127.0.0.1:9150/#Tor
