@@ -31,3 +31,6 @@ vmess://eyJhZGQiOiJtY2kucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0Ijoi
 vless://ab45ffa4-3873-4208-9e18-3c940445aea4@mci.rayanbala.ir:443/?encryption=none&type=ws&host=11.rayanbala.ir&path=%2Fvless%2Fab45ffa4-3873-4208-9e18-3c940445aea4&security=tls&sni=11.rayanbala.ir&alpn=h2%2Chttp%2F1.1#Worker-MCI
 
 vless://adbdb103-432b-4690-bdee-5204ec6271bd@mci.rayanbala.ir:443/?encryption=none&type=ws&host=test.rayanbala.ir&security=tls&sni=test.rayanbala.ir#Worker-II-MCI
+
+
+socks5://127.0.0.1:9150/#Tor
