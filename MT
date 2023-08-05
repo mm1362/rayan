@@ -5,6 +5,12 @@ https://mms.1362:rayanbala.ir@md.secureconnect.me:993/#Moldova-TG-MTN
 
 https://mms.1362:rayanbala.ir@ice.secureconnect.me:993/#Iceland-TG-MTN
 
+vless://06096981-0416-47e0-a98d-bbd9448e4784@mtn.rayanbala.ir:443/?type=ws&encryption=none&host=worker11.rayanbala.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker11.rayanbala.ir#Worker-I-MTN
+
+
+vless://d9cd6fbc-a295-4ac9-9383-4f1561b0fbb2@mtn.rayanbala.ir:443/?type=ws&encryption=none&host=worker22.medicaldream.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker22.medicaldream.ir#Worker-II-MTN
+
+
 vless://aae0527c-5ad5-4a40-b966-fc89e9030083@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=worker.rayanbala.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.rayanbala.ir#Worker-III-MTN
 
 vless://8472537e-da6f-4c86-89e6-6305c5baa557@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=worker.medicaldream.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.medicaldream.ir#Worker-III-MD-MTN
@@ -12,6 +18,8 @@ vless://8472537e-da6f-4c86-89e6-6305c5baa557@mtn.rayanbala.ir:443/?encryption=no
 
 vless://d9cd6fbc-a295-4ac9-9383-4f1561b0fbb2@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=worker4.rayan1.workers.dev&path=%2F%3Fed%3D2048&security=tls&sni=worker4.rayan1.workers.dev#Worker-IV-MTN
 
+
+vless://29feaba8-4995-45c6-a93b-2f315c626c18@mtn.rayanbala.ir:443/?type=ws&encryption=none&host=worker55.medicalsigns.link&path=%2F%3Fed%3D2048&security=tls&sni=worker55.medicalsigns.link#Worker-V-MTN
 
 
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiODAtYjEyZjBkYmMzYTg5NGJhNGFmYTk0NDg2YTEzODczZWQub25wYXRyLmNsb3VkIiwiaWQiOiJhMmZiYjFkZi00ZDRjLTQ4MmMtYmI1OC0wMjZjZDdlZWY2YjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJQYXRyLU1UTiIsInNjeSI6Im5vbmUiLCJzbmkiOiI4MC1iMTJmMGRiYzNhODk0YmE0YWZhOTQ0ODZhMTM4NzNlZC5vbnBhdHIuY2xvdWQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
