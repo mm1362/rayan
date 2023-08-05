@@ -4,6 +4,12 @@ https://mms.1362:rayanbala.ir@ukr.secureconnect.me:489/#Ukraine-TG-MCI
 
 https://mms.1362:rayanbala.ir@nl.secureconnect.me:489/#Netherlands-TG-MCI
 
+vless://06096981-0416-47e0-a98d-bbd9448e4784@mci.rayanbala.ir:443/?type=ws&encryption=none&flow=&host=worker11.rayanbala.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker11.rayanbala.ir&allowInsecure=1#Worker-I-MCI
+
+
+vless://d9cd6fbc-a295-4ac9-9383-4f1561b0fbb2@mci.rayanbala.ir:443/?type=ws&encryption=none&flow=&host=worker22.medicaldream.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker22.medicaldream.ir&allowInsecure=1#Worker-II-MCI
+
+
 vless://aae0527c-5ad5-4a40-b966-fc89e9030083@mci.rayanbala.ir:443/?encryption=none&type=ws&host=worker.rayanbala.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.rayanbala.ir#Worker-III-MCI
 
 
@@ -11,6 +17,9 @@ vless://8472537e-da6f-4c86-89e6-6305c5baa557@mci.rayanbala.ir:443/?encryption=no
 
 
 vless://d9cd6fbc-a295-4ac9-9383-4f1561b0fbb2@mci.rayanbala.ir:443/?encryption=none&type=ws&host=worker4.rayan1.workers.dev&path=%2F%3Fed%3D2048&security=tls&sni=worker4.rayan1.workers.dev#Worker-IV-MCI
+
+
+vless://29feaba8-4995-45c6-a93b-2f315c626c18@mci.rayanbala.ir:443/?type=ws&encryption=none&flow=&host=worker55.medicalsigns.link&path=%2F%3Fed%3D2048&security=tls&sni=worker55.medicalsigns.link&allowInsecure=1#Worker-V-MCI
 
 
 vmess://eyJhZGQiOiJtY2kucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiODAtYjEyZjBkYmMzYTg5NGJhNGFmYTk0NDg2YTEzODczZWQub25wYXRyLmNsb3VkIiwiaWQiOiJhMmZiYjFkZi00ZDRjLTQ4MmMtYmI1OC0wMjZjZDdlZWY2YjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJQYXRyLU1DSSIsInNjeSI6Im5vbmUiLCJzbmkiOiI4MC1iMTJmMGRiYzNhODk0YmE0YWZhOTQ0ODZhMTM4NzNlZC5vbnBhdHIuY2xvdWQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
