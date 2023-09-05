@@ -2,7 +2,7 @@ vless://aae0527c-5ad5-4a40-b966-fc89e9030083@smt.rayanbala.ir:443/?encryption=no
 
 vless://8472537e-da6f-4c86-89e6-6305c5baa557@smt.rayanbala.ir:443/?encryption=none&type=ws&host=worker.medicaldream.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.medicaldream.ir#Worker-III-MD-SMT
 
-vless://d9cd6fbc-a295-4ac9-9383-4f1561b0fbb2@smt.rayanbala.ir:443/?encryption=none&type=ws&host=worker.medicalsigns.link&path=%2F%3Fed%3D2048&security=tls&sni=worker.medicalsigns.link#Worker-IV-SMT
+vless://29feaba8-4995-45c6-a93b-2f315c626c18@smt.rayanbala.ir:443?security=tls&sni=worker55.medicalsigns.link&allowInsecure=1&type=ws&path=/?ed%3D2048&host=worker55.medicalsigns.link&encryption=none#Worker-V-SMT
 
 vless://20ac7536-1b8f-4797-8b18-841c7786f99f@smt.rayanbala.ir:443/?encryption=none&type=ws&host=rep.rayanbala.ir&path=%2F222.mohammadmoazzen.repl.co%2F20ac7536-1b8f-4797-8b18-841c7786f99f-vl&security=tls&sni=rep.rayanbala.ir#Replit-USA-SMT
 
