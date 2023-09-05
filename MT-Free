@@ -33,4 +33,7 @@ vless://ab45ffa4-3873-4208-9e18-3c940445aea4@mtn.rayanbala.ir:443/?encryption=no
 vless://adbdb103-432b-4690-bdee-5204ec6271bd@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=test.rayanbala.ir&security=tls&sni=test.rayanbala.ir#Worker-II-MTN
 
 
+vless://ded67d2e-01df-41d4-a1cc-eb87f72fe80f@mtn.rayanbala.ir:443/?type=ws&encryption=none&flow=&host=vpsfree.rayanbala.ir&path=%2Fargo-vless%3Fed%3D2048&security=tls&sni=vpsfree.rayanbala.ir&allowInsecure=1#ES-Avatel-MTN
+
+
 socks5://127.0.0.1:9150/#Tor
