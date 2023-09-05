@@ -2,15 +2,13 @@ vless://aae0527c-5ad5-4a40-b966-fc89e9030083@mtn.rayanbala.ir:443/?encryption=no
 
 vless://8472537e-da6f-4c86-89e6-6305c5baa557@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=worker.medicaldream.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.medicaldream.ir#Worker-III-MD-MTN
 
-vless://d9cd6fbc-a295-4ac9-9383-4f1561b0fbb2@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=worker4.rayan1.workers.dev&path=%2F%3Fed%3D2048&security=tls&sni=worker4.rayan1.workers.dev#Worker-IV-MTN
+vless://29feaba8-4995-45c6-a93b-2f315c626c18@mtn.rayanbala.ir:443?security=tls&sni=worker55.medicalsigns.link&allowInsecure=1&type=ws&path=/?ed%3D2048&host=worker55.medicalsigns.link&encryption=none#Worker-V-MTN
 
 vless://20ac7536-1b8f-4797-8b18-841c7786f99f@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=rep.rayanbala.ir&path=%2F222.mohammadmoazzen.repl.co%2F20ac7536-1b8f-4797-8b18-841c7786f99f-vl&security=tls&sni=rep.rayanbala.ir#Replit-USA-MTN
 
 vless://5862b16a-3e0e-45f8-b168-ad34fcf60f42@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=rep.rayanbala.ir&path=%2Fmms-mm1362.cloud.okteto.net%2Fvless&security=tls&sni=rep.rayanbala.ir#Okteto-MTN
 
 vless://ded67d2e-01df-41d4-a1cc-eb87f72fe80f@mtn.rayanbala.ir:443/?type=ws&encryption=none&flow=&host=vpsfree.rayanbala.ir&path=%2Fargo-vless%3Fed%3D2048&security=tls&sni=vpsfree.rayanbala.ir&allowInsecure=1#ES-Avatel-MTN
-
-vless://adbdb103-432b-4690-bdee-5204ec6271bd@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=test.rayanbala.ir&security=tls&sni=test.rayanbala.ir#Worker-II-MTN
 
 GAFN-Dusseldorf-MTN-chrome:
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImhvc3QiOiJyZXAucmF5YW5iYWxhLmlyIiwiaWQiOiJEMDI0OEUxQy0wQzdFLTQyRjctOEJCNS04NzA2MkJDNjVGODMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvRHVzc2VsZG9yZi5rb3RpY2suc2l0ZS9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiJHQUZOLUR1c3NlbGRvcmYtTVROIiwic2N5Ijoibm9uZSIsInNuaSI6InJlcC5yYXlhbmJhbGEuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
