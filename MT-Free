@@ -10,7 +10,7 @@ vless://5862b16a-3e0e-45f8-b168-ad34fcf60f42@mtn.rayanbala.ir:443/?encryption=no
 
 vless://ded67d2e-01df-41d4-a1cc-eb87f72fe80f@mtn.rayanbala.ir:443/?type=ws&encryption=none&flow=&host=vpsfree.rayanbala.ir&path=%2Fargo-vless%3Fed%3D2048&security=tls&sni=vpsfree.rayanbala.ir&allowInsecure=1#ES-Avatel-MTN
 
-vless://88ad2fd8-e7fa-49f5-af06-085d35ced70b@mtn.rayanbala.ir:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=worker.msnegar.eu.org&type=ws&sni=worker.msnegar.eu.org#Worker-III-MCI
+vless://88ad2fd8-e7fa-49f5-af06-085d35ced70b@mtn.rayanbala.ir:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=worker.msnegar.eu.org&type=ws&sni=worker.msnegar.eu.org#Worker-IV-MCI
 
 GAFN-Dusseldorf-MTN-chrome:
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImhvc3QiOiJyZXAucmF5YW5iYWxhLmlyIiwiaWQiOiJEMDI0OEUxQy0wQzdFLTQyRjctOEJCNS04NzA2MkJDNjVGODMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvRHVzc2VsZG9yZi5rb3RpY2suc2l0ZS9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiJHQUZOLUR1c3NlbGRvcmYtTVROIiwic2N5Ijoibm9uZSIsInNuaSI6InJlcC5yYXlhbmJhbGEuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
