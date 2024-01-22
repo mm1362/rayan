@@ -1,40 +1,16 @@
-
-https://mms.1362:rayanbala.ir@ru.secureconnect.me:993/#Russia-TG-MTN
-
-https://mms.1362:rayanbala.ir@md.secureconnect.me:993/#Moldova-TG-MTN
-
-https://mms.1362:rayanbala.ir@ice.secureconnect.me:993/#Iceland-TG-MTN
-
-
-
 vless://aae0527c-5ad5-4a40-b966-fc89e9030083@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=worker.rayanbala.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.rayanbala.ir#Worker-III-MTN
 
 vless://8472537e-da6f-4c86-89e6-6305c5baa557@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=worker.medicaldream.ir&path=%2F%3Fed%3D2048&security=tls&sni=worker.medicaldream.ir#Worker-III-MD-MTN
 
-
-
 vless://29feaba8-4995-45c6-a93b-2f315c626c18@mtn.rayanbala.ir:443/?type=ws&encryption=none&host=worker55.medicalsigns.link&path=%2F%3Fed%3D2048&security=tls&sni=worker55.medicalsigns.link#Worker-V-MTN
-
-
-vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiODAtYjEyZjBkYmMzYTg5NGJhNGFmYTk0NDg2YTEzODczZWQub25wYXRyLmNsb3VkIiwiaWQiOiJhMmZiYjFkZi00ZDRjLTQ4MmMtYmI1OC0wMjZjZDdlZWY2YjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJQYXRyLU1UTiIsInNjeSI6Im5vbmUiLCJzbmkiOiI4MC1iMTJmMGRiYzNhODk0YmE0YWZhOTQ0ODZhMTM4NzNlZC5vbnBhdHIuY2xvdWQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
-
-
-vless://20ac7536-1b8f-4797-8b18-841c7786f99f@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=rep.rayanbala.ir&path=%2F222.mohammadmoazzen.repl.co%2F20ac7536-1b8f-4797-8b18-841c7786f99f-vl&security=tls&sni=rep.rayanbala.ir#Replit-USA-MTN
-
-
-vless://5862b16a-3e0e-45f8-b168-ad34fcf60f42@mtn.rayanbala.ir:443/?encryption=none&type=ws&host=rep.rayanbala.ir&path=%2Fmms-mm1362.cloud.okteto.net%2Fvless&security=tls&sni=rep.rayanbala.ir#Okteto-MTN
-
 
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0R1c3NlbGRvcmYua290aWNrLnNpdGUvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoiR0FGTi1EdXNzZWxkb3JmLU1UTiIsInNjeSI6Im5vbmUiLCJzbmkiOiJyZXAucmF5YW5iYWxhLmlyIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
 
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0thbnNhcy5rb3RpY2suc2l0ZS9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiJHQUZOLUthbnNhcy1NVE4iLCJzY3kiOiJub25lIiwic25pIjoicmVwLnJheWFuYmFsYS5pciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
 
-
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0Ftc3RlcmRhbS5rb3RpY2suc2l0ZS9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiJHQUZOLUFtc3RlcmRhbS1NVE4iLCJzY3kiOiJub25lIiwic25pIjoicmVwLnJheWFuYmFsYS5pciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
 
-
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLnJheWFuYmFsYS5pciIsImlkIjoiRDAyNDhFMUMtMEM3RS00MkY3LThCQjUtODcwNjJCQzY1RjgzIiwibmV0Ijoid3MiLCJwYXRoIjoiL0xpbGxlLmtvdGljay5zaXRlL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IkdBRk4tTGlsbGUtTVROIiwic2N5Ijoibm9uZSIsInNuaSI6InJlcC5yYXlhbmJhbGEuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
-
 
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLm1lZGljYWxkcmVhbS5pciIsImlkIjoiRjVFMEJDRjMtRTEwMi00RDk0LUE4MzgtNDdBQTc1OUNDQUNCIiwibmV0Ijoid3MiLCJwYXRoIjoiL0xpbGxlLmtvdGljay5zaXRlL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IkdBRk4tTGlsbGUtSUktTVROIiwic2N5Ijoibm9uZSIsInNuaSI6InJlcC5tZWRpY2FsZHJlYW0uaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 
@@ -43,30 +19,3 @@ vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0Ijoi
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLm1lZGljYWxkcmVhbS5pciIsImlkIjoiRjVFMEJDRjMtRTEwMi00RDk0LUE4MzgtNDdBQTc1OUNDQUNCIiwibmV0Ijoid3MiLCJwYXRoIjoiL0thbnNhcy5rb3RpY2suc2l0ZS9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiJHQUZOLUthbnNhcy1JSS1NVE4iLCJzY3kiOiJub25lIiwic25pIjoicmVwLm1lZGljYWxkcmVhbS5pciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
 
 vmess://eyJhZGQiOiJtdG4ucmF5YW5iYWxhLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoicmVwLm1lZGljYWxkcmVhbS5pciIsImlkIjoiRjVFMEJDRjMtRTEwMi00RDk0LUE4MzgtNDdBQTc1OUNDQUNCIiwibmV0Ijoid3MiLCJwYXRoIjoiL0R1c3NlbGRvcmYua290aWNrLnNpdGUvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoiR0FGTi1EdXNzZWxkb3JmLUlJLU1UTiIsInNjeSI6Im5vbmUiLCJzbmkiOiJyZXAubWVkaWNhbGRyZWFtLmlyIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
-
-
-
-
-https://mms.1362:rayanbala.ir@fn.secureconnect.me:993/#Finland-TG-MTN
-
-https://mms.1362:rayanbala.ir@us-sf.secureconnect.me:993/#USA-SF-TG-MTN
-
-https://mms.1362:rayanbala.ir@cavan.secureconnect.me:993/#Canada-TG-MTN
-
-https://mms.1362:rayanbala.ir@ch.secureconnect.me:993/#Chile-TG-MTN
-
-https://mms.1362:rayanbala.ir@isr-loc2.secureconnect.me:993/#Israel-Loc2-TG-MTN
-
-https://mms.1362:rayanbala.ir@ro.secureconnect.me:993/#Romani-TG-MTN
-
-https://mms.1362:rayanbala.ir@ukr.secureconnect.me:7070/#Ukraine-TG-MTN
-
-https://mms.1362:rayanbala.ir@swe.secureconnect.me:993/#Sweden-TG-MTN
-
-https://mms.1362:rayanbala.ir@sp.secureconnect.me:993/#Spain-TG-MTN
-
-https://mms.1362:rayanbala.ir@no.secureconnect.me:993/#Norwey-TG-MTN
-
-
-
-socks5://127.0.0.1:9150/#Tor
